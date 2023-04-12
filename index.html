@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  
+<!-- Mirrored from staking.sportzchain.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Nov 2022 23:52:58 GMT -->
+<head>
+    <!-- meta tag -->
+    <meta charset="utf-8" />
+    <title>SPORTZCHAIN | STAKING</title>
+    <meta
+      name="keywords"
+      content="tokens, sportzchain, staking, sports, fans, earn,"
+    />
+    <meta name="description" content="Sportzchain Staking Platform" />
+    <!-- responsive tag -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap v4.4.1 css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+    <!-- animate css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+    <!-- magnific css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/magnific-popup.css"
+    />
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" />
+    <!-- off canvas css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/off-canvas.css" />
+    <!-- flaticon css  -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/ico-moon-fonts.css"
+    />
+    <!-- font awesome icon css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
+    <!-- spacing css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/sc-spacing.css" />
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+    <!-- notyf css -->
+    <link
+      href="assets/vendor/notyf/notyf.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/images/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+
+    <style>
+      /* Chrome, Safari, Edge, Opera */
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      /* Firefox */
+      input[type="number"] {
+        -moz-appearance: textfield;
+      }
+
+      .max:hover {
+        cursor: pointer;
+      }
+
+      .project_details2_allocations_table_headings ul li,
+      .project_details2_allocations_table_body ul li {
+        justify-content: center !important;
+      }
+    </style>
+  </head>
+
+  <body class="defult-home">
+    <!--Preloader area start here-->
+    <div class="loader_first">
+      <div class="circular-spinner"></div>
+    </div>
+    <!--Preloader area End here-->
+
+    <!--Header Start-->
+    <header id="gamfi-header" class="gamfi-header-section default-header">
+      <div class="menu-area menu-sticky">
+        <div class="container">
+          <div
+            class="heaader-inner-area d-flex justify-content-between align-items-center"
+          >
+            <div
+              class="gamfi-logo-area d-flex justify-content-between align-items-center"
+            >
+              <div class="logo">
+                <a href="index.html"
+                  ><img src="assets/images/logo/logo.svg" alt="logo"
+                /></a>
+              </div>
+              <div class="header-menu" style="padding-left: 35em">
+                <ul class="nav-menu">
+                  <li>
+                    <a href="https://tokens.sportzchain.com/" target="_blank"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://sportzchain.com/spn-token-page/"
+                      >$SPN Token</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://sportzchain.com/sportzchain_whitepaper/"
+                      target="_blank"
+                      >Whitepaper</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Header End-->
+
+    <!-- Breadcrumbs Section Start -->
+
+    <div class="gamfi-breadcrumbs-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="breadcrumbs-area sec-heading">
+              <div class="sub-inner mb-15">
+                <span class="sub-title">Sportzchain</span>
+                <img
+                  class="heading-left-image"
+                  src="assets/images/icons/steps.png"
+                  alt="Steps-Image"
+                />
+              </div>
+              <h2 class="title mb-0">Staking</h2>
+            </div>
+          </div>
+          <div class="col-lg-7 align-self-center">
+            <div id="connect-block">
+              <button
+                type="button"
+                class="connect-btn readon white-btn hover-shape float-end"
+                id="connect-metamask"
+                onclick="connectMe('metamask_wallet')"
+              >
+                <img src="assets/images/icons/connect.png" alt="Icon" />
+                <span class="btn-text">Connect </span>
+                <span class="hover-shape1"></span>
+                <span class="hover-shape2"></span>
+                <span class="hover-shape3"></span>
+              </button>
+            </div>
+            <div
+              class="float-lg-end metamask-connected-block"
+              style="display: none"
+            >
+              <p>
+                <img src="assets/images/icons/metamask.png" width="30" />
+                Metamask Connected (<span id="current-nentwork"></span>)
+              </p>
+              <h6 id="selected-address">-</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Breadcrumbs  Section End -->
+
+    <!-- Participat Detaisl Content Start -->
+    <div
+      class="participat-information project-details-conent gamfi-about-secion pb-80 md-pb-50"
+    >
+      <div class="container">
+        <div class="row pt-70">
+          <div class="col-lg-6 pr-25 md-pr-15">
+            <div class="project-item">
+              <div class="project-info border-bottom-2">
+                <h4 class="mb-15">
+                  Participate in $SPN Staking Program - The Vault
+                </h4>
+              </div>
+              <ul class="date-listing mb-35">
+                <li
+                  class="stake-tab-links"
+                  onclick="openTab(event, 'sevenDays')"
+                  id="defaultOpen"
+                  name="sevenDays"
+                >
+                  <button>7 Days</button>
+                </li>
+                <li
+                  class="stake-tab-links"
+                  onclick="openTab(event, 'tenDays')"
+                  name="tenDays"
+                >
+                  <button>10 Days</button>
+                </li>
+                <li
+                  class="stake-tab-links"
+                  onclick="openTab(event, 'thirtyTwoDays')"
+                  name="thirtyTwoDays"
+                >
+                  <button>32 Days</button>
+                </li>
+                <li
+                  class="stake-tab-links"
+                  onclick="openTab(event, 'ninetyDays')"
+                  name="ninetyDays"
+                >
+                  <button>90 Days</button>
+                </li>
+              </ul>
+              <div class="project-content">
+                <div id="sevenDays" class="stake-tab-content">
+                  <div class="project-media mb-40">
+                    <ul class="project-listing">
+                      <li style="padding-bottom: 24px">
+                        Lock period: <strong>7 days</strong>
+                        <span>APY Rate</span>
+                        <a href="#"><span class="big-text apy">20 %</span></a>
+                      </li>
+                      <!-- <li>Re-locks on registration: <strong>Yes</strong> <a href="#"><span
+                                                    class="big-text apy">0 %</span></a></li> -->
+                      <li>
+                        Early unstake fee:
+                        <strong class="early-unstake-fee"></strong>
+                      </li>
+                      <li>
+                        Minimum Staking Amount:
+                        <strong class="min-stake-amount"></strong>
+                      </li>
+                      <li>
+                        Maximum Staking Amount:
+                        <strong class="max-stake-amount"></strong>
+                      </li>
+                      <li>
+                        Status: <strong class="current-staking-status"></strong>
+                      </li>
+                      <li>
+                        Additional Reward* :
+                        <strong>NA</strong>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div id="tenDays" class="stake-tab-content">
+                  <div class="project-media mb-40">
+                    <ul class="project-listing">
+                      <li style="padding-bottom: 24px">
+                        Lock period: <strong>10 days</strong>
+                        <span>APY Rate</span>
+                        <a href="#"><span class="big-text apy">40 %</span></a>
+                      </li>
+                      <!-- <li>Re-locks on registration: <strong>Yes</strong> <a href="#"><span
+                                                    class="big-text apy">0 %</span></a></li> -->
+                      <li>
+                        Early unstake fee:
+                        <strong class="early-unstake-fee"></strong>
+                      </li>
+                      <li>
+                        Minimum Staking Amount:
+                        <strong class="min-stake-amount"></strong>
+                      </li>
+                      <li>
+                        Maximum Staking Amount:
+                        <strong class="max-stake-amount"></strong>
+                      </li>
+                      <li>
+                        Status: <strong class="current-staking-status"></strong>
+                      </li>
+                      <li>
+                        Additional Reward* :
+                        <strong
+                          >1 Raffle ticket for every 100,000 SPN staked and 10
+                          lucky winners will share a winning pot of $1000 worth
+                          SPN</strong
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div id="thirtyTwoDays" class="stake-tab-content">
+                  <div class="project-media mb-40">
+                    <ul class="project-listing">
+                      <li style="padding-bottom: 24px">
+                        Lock period: <strong>32 days</strong>
+                        <span>APY Rate</span>
+                        <a href="#"><span class="big-text apy">60 %</span></a>
+                      </li>
+                      <!-- <li>Re-locks on registration: <strong>Yes</strong> <a href="#"><span
+                                                    class="big-text">25 %</span></a></li> -->
+                      <li>
+                        Early unstake fee:
+                        <strong class="early-unstake-fee"></strong>
+                      </li>
+                      <li>
+                        Minimum Staking Amount:
+                        <strong class="min-stake-amount"></strong>
+                      </li>
+                      <li>
+                        Maximum Staking Amount:
+                        <strong class="max-stake-amount"></strong>
+                      </li>
+                      <li>
+                        Status: <strong class="current-staking-status"></strong>
+                      </li>
+                      <li>
+                        Additional Reward* :
+                        <strong
+                          >1 Raffle ticket for every 100,000 SPN staked and 10
+                          lucky winners will share a winning pot of $1500 worth
+                          SPN</strong
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div id="ninetyDays" class="stake-tab-content">
+                  <div class="project-media mb-40">
+                    <ul class="project-listing">
+                      <li style="padding-bottom: 24px">
+                        Lock period: <strong>90 days</strong>
+                        <span>APY Rate</span>
+                        <a href="#"><span class="big-text apy">100 %</span></a>
+                      </li>
+                      <!-- <li>Re-locks on registration: <strong>Yes</strong> <a href="#"><span
+                                                    class="big-text">35 %</span></a></li> -->
+                      <li>
+                        Early unstake fee:
+                        <strong class="early-unstake-fee"></strong>
+                      </li>
+                      <li>
+                        Minimum Staking Amount:
+                        <strong class="min-stake-amount"></strong>
+                      </li>
+                      <li>
+                        Maximum Staking Amount:
+                        <strong class="max-stake-amount"></strong>
+                      </li>
+                      <li>
+                        Status: <strong class="current-staking-status"></strong>
+                      </li>
+                      <li>
+                        Additional Reward* :
+                        <strong
+                          >1 Raffle ticket for every 100,000 SPN staked and 10
+                          lucky winners will share a winning pot of $2500 worth
+                          SPN</strong
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="project-form-list" id="connect-block">
+                            <h5 class="mb-1">Connect Metamask to Stack</h5>
+                            <button type="button" class="readon black-shape-big connect-wallet-btn-for-mobile"
+                                id="connect-metamask" onclick="connectMe('metamask_wallet')"><img
+                                    src="assets/images/icons/connect_white.png" alt="Icon">
+                                <span class="btn-text">Connect </span>
+                                <span class="hover-shape1"></span>
+                                <span class="hover-shape2"></span>
+                                <span class="hover-shape3"></span>
+                            </button>
+                            <br><br>
+                        </div> -->
+              <div
+                class="project-form-list wallet-connected-block"
+                style="display: none"
+              >
+                <!-- <h5 class="mb-18" id="selected-address">Address: -</h5> -->
+
+                <h5 class="mb-18 refresh-loader" id="user-main-balance" bal="0">
+                  Balance: 0
+                </h5>
+                <div class="balance-form-area mb-27 stake-btn-block">
+                  <input
+                    id="amount-to-stack"
+                    type="number"
+                    min="0"
+                    oninput="validity.valid||(value='');"
+                    placeholder="00.00"
+                  />
+                  <span class="max max-stake">MAX</span>
+                  <div
+                    class="white-shape-small approve"
+                    onclick="stackTokens()"
+                  >
+                    <input
+                      type="submit"
+                      value="Stake"
+                      name="Stake"
+                      id="stake-btn"
+                    />
+                    <span class="hover-shape1"></span>
+                    <span class="hover-shape2"></span>
+                    <span class="hover-shape3"></span>
+                  </div>
+                </div>
+                <!-- <h5 class="mb-18" id="user-staked-balance">Staked: 0</h5> -->
+                <div class="balance-form-area unstake-btn-block">
+                  <input
+                    id="amount-to-unstack"
+                    type="number"
+                    min="0"
+                    oninput="validity.valid||(value='');"
+                    placeholder="00.00"
+                  />
+                  <span class="max max-unstake">MAX</span>
+                  <div class="white-shape-small" onclick="unstackTokens()">
+                    <input
+                      type="submit"
+                      value="Withdraw"
+                      name="Withdraw"
+                      id="unstake-btn"
+                    />
+                    <span class="hover-shape1"></span>
+                    <span class="hover-shape2"></span>
+                    <span class="hover-shape3"></span>
+                  </div>
+                </div>
+                <div class="project-form-list">
+                  <h5 class="mb-0 mt-18" id="user-reward-balance">Reward: 0</h5>
+                  <button
+                    type="button"
+                    class="readon black-shape-big connect-wallet-btn-for-mobile"
+                    id="claim-btn"
+                    onclick="claimTokens()"
+                  >
+                    <span class="btn-text">Claim Reward</span>
+                    <span class="hover-shape1"></span>
+                    <span class="hover-shape2"></span>
+                    <span class="hover-shape3"></span>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <p class="mt-10 mb-0">
+                  <i style="font-size: 14px">*- T&C Applies</i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 pl-25 md-pl-15">
+            <div
+              class="project-item project-value-inner d-flex justify-content-between align-items-center mb-30"
+            >
+              <div class="project-value">
+                <h3 class="mb-15 initial-loader" id="total-locked-tokens">0</h3>
+                <span>Total Staked Tokens</span>
+
+                <!-- <h3 class="mb-15" >$7,868,163.54</h3> -->
+                <!-- <span>Total Value Locked</span> -->
+              </div>
+              <!--
+                        <div class="project-value-image">
+                            <img class="heading-right-image" src="assets/images/project/rank.png" alt="rank" />
+                        </div> -->
+            </div>
+            <!--
+                    <div
+                        class="project-item project-value-inner d-flex justify-content-between align-items-center mb-30">
+                        <div class="project-value">
+                            <h3 class="mb-15">158.50 %</h3>
+                            <span>Apy</span>
+                        </div>
+                        <div class="project-value-image">
+                            <img class="heading-right-image" src="assets/images/project/rank2.png" alt="rank" />
+                        </div>
+                    </div> -->
+            <div
+              class="project-item project-value-inner d-flex justify-content-between align-items-center"
+            >
+              <div class="project-value">
+                <h3 class="mb-15 initial-loader" id="num-of-stackers">0</h3>
+                <span>Number of Stakers</span>
+              </div>
+              <!--
+                        <div class="project-value-image">
+                            <img class="heading-right-image" src="assets/images/project/rank3.png" alt="rank" />
+                        </div> -->
+            </div>
+            <div
+              class="project-item project-value-inner justify-content-between align-items-center wallet-connected-block"
+              style="display: none"
+            >
+              <div class="project-value">
+                <h3
+                  class="mb-15 refresh-loader"
+                  id="user-staked-balance"
+                  bal="0"
+                >
+                  0
+                </h3>
+                <span>Your Staked Tokens</span>
+              </div>
+              <!--
+                        <div class="project-value-image">
+                            <img class="heading-right-image" src="assets/images/project/rank3.png" alt="rank" />
+                        </div> -->
+            </div>
+            <div
+              class="project-item project-value-inner justify-content-between align-items-center countdown-block"
+              style="display: none"
+            >
+              <div class="project-value">
+                <h3
+                  class="mb-15 refresh-loader initial-loader countdown-time"
+                ></h3>
+                <span class="countdown-title"></span>
+              </div>
+              <!--
+                        <div class="project-value-image">
+                            <img class="heading-right-image" src="assets/images/project/rank3.png" alt="rank" />
+                        </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Participat Detaisl Content End -->
+    <div
+      class="staking4_table_sect pb-140"
+      id="tx-history"
+      style="display: none"
+    >
+      <div class="container">
+        <div class="project_details2_allocations_table_sect m-0">
+          <h2>
+            Stake History<span
+              ><img
+                src="assets/images/icons/steps.png"
+                alt=""
+                class="img-fluid"
+            /></span>
+          </h2>
+          <!-- <div class="project_details2_allocations_table">
+            <div class="project_details2_allocations_table_headings">
+              <ul>
+                <li class="table_col1">No.</li>
+                <li class="table_col2">Type</li>
+                <li class="table_col2">Date</li>
+                <li class="table_col3">*Fee (Early UnStake)</li>
+                <li class="table_col4">Amount</li>
+                <li class="table_col5">Status</li>
+                <li class="table_col6">View</li>
+              </ul>
+            </div>
+
+            <div
+              class="project_details2_allocations_table_body"
+              id="tx-history-body"
+            >
+            </div>
+          </div> -->
+          <table
+            class="table project_details2_allocations_table"
+            id="tx-history-body"
+          >
+            <thead
+              class="thead-dark project_details2_allocations_table_headings"
+            >
+              <th>No.</th>
+              <th>Type</th>
+              <th>Date</th>
+              <th>*Fee (Early UnStake)</th>
+              <th>Amount</th>
+              <th>Status</th>
+              <th>View</th>
+            </thead>
+            <tbody class="project_details2_allocations_table_body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Staking Raffles-->
+    <div class="staking-information project-details-conent pb-80 md-pb-50">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 pr-25 md-pr-15">
+            <div class="project-item table-item">
+              <!-- <h4>
+                Additionally, we have raffle tickets for various staking
+                programs and the opportunity to win up to $2500 on SPN tokens on
+              </h4>
+              <div style="padding: 0px 50px">
+                <table class="table" style="color: rgba(255, 255, 255, 0.7)">
+                  <thead class="thead-light">
+                    <th scope="col">Raffle</th>
+                    <th scope="col">Program APY</th>
+                    <th scope="col">Pot Share</th>
+                    <th scope="col">Potential Winnings*</th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="padding-left: 8px">
+                        1 raffle ticket for every 100,000 SPN staked
+                      </td>
+                      <td style="padding-left: 8px">40%</td>
+                      <td style="padding-left: 8px">10 winners</td>
+                      <td style="padding-left: 8px">$1000 worth SPN tokens</td>
+                    </tr>
+                    <tr>
+                      <td style="padding-left: 8px">
+                        1 raffle ticket for every 100,000 SPN staked
+                      </td>
+                      <td style="padding-left: 8px">60%</td>
+                      <td style="padding-left: 8px">10 winners</td>
+                      <td style="padding-left: 8px">$1500 worth SPN tokens</td>
+                    </tr>
+                    <tr>
+                      <td style="padding-left: 8px">
+                        1 raffle ticket for every 100,000 SPN staked
+                      </td>
+                      <td style="padding-left: 8px">100%</td>
+                      <td style="padding-left: 8px">10 winners</td>
+                      <td style="padding-left: 8px">$2500 worth SPN tokens</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>
+                  <i style="font-size: 13px">*- Terms and conditions apply</i>
+                </p>
+              </div> -->
+              <h5 style="font-size: 17px; font-family: 'Inter', sans-serif">
+                If you have any queries or issues with staking program please
+                reach out to us at
+                <a href="mailto:info@sportzchain.com">info@sportzchain.com</a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section Start -->
+
+    <div class="gamfi-footer-section">
+      <div class="footer-area">
+        <div class="container">
+          <div class="sec-heading text-center">
+            <div class="sub-inner mb-52">
+              <img
+                class="heading-right-image"
+                src="assets/images/icons/steps2.png"
+                alt="Steps-Image"
+              />
+              <span class="sub-title white-color">Find us on Social</span>
+              <img
+                class="heading-left-image"
+                src="assets/images/icons/steps.png"
+                alt="Steps-Image"
+              />
+            </div>
+          </div>
+          <div class="footer-listing text-center mb-100 md-mb-70">
+            <ul class="footer-icon-list">
+              <li>
+                <a href="https://twitter.com/sportzchain">
+                  <i class="icon-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/SportzchainCommunity">
+                  <i class="icon-telegram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://medium.com/@SportZchain">
+                  <i class="icon-medium"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://discord.com/invite/E4X3Gg9nbK">
+                  <i class="icon-discord"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/authwall?trk=gf&amp;trkInfo=AQHpru63mDcBXgAAAYCOaHTg5n0F1XTCI9UfbmkZ6QJd1kyLLm8Cigfega_nIghPLDMobs6lUvvXCTiPuTYbARn7GgWsQB71OQyBWoLOBqnQtgae6tzckB3AoVXf8-BSPvuwzC8=&amp;originalReferer=https://www.sportzchain.com/&amp;sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fsportzchain"
+                >
+                  <i class="icon-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/accounts/login/?next=/sportzchain/"
+                >
+                  <i class="icon-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/SPORTZCHAIN-104322128532497/">
+                  <i class="icon-facebook"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-logo text-center mb-45">
+            <a href="index.html">
+              <img src="assets/images/logo/logo.svg" alt="Footer-logo" />
+            </a>
+          </div>
+          <div class="footer-mainmenu text-center mb-20">
+            <ul>
+              <li>
+                <a href="https://sportzchain.com/">Features</a>
+              </li>
+              <li>
+                <a href="https://sportzchain.com/spn-token-page/">Token info</a>
+              </li>
+              <li>
+                <a href="https://sportzchain.com/about/">About us</a>
+              </li>
+              <!--<li>
+                                <a href="#">Terms of Service</a>
+                            </li>-->
+              <li>
+                <a href="https://tokens.sportzchain.com/privacy"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-area text-center mb-0">
+            <p class="dsc mb-37">
+              Copyright © 2022. All Rights Reserved by
+              <a target="_blank" class="gafi" href="#">SPORTZCHAIN</a>
+            </p>
+          </div>
+          <div class="scrollup text-center">
+            <a href="#">
+              <i class="icon-arrow_up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Section End -->
+
+    <!-- modernizr js -->
+    <script src="assets/js/modernizr-2.8.3.min.js"></script>
+    <!-- jquery latest version -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap v4.4.1 js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- popup.min js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- imagesloaded.pkgd.min js -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- wow js -->
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- counter top js -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- owl.carousel js -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- plugins js -->
+    <script src="assets/js/plugins.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+    <!-- staking js -->
+    <script src="assets/js/custom/staking.js"></script>
+
+    <script src="assets/vendor/notyf/notyf.min.js"></script>
+
+    <script src="js/web3.min.js"></script>
+
+    <script src="js/header.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+
+<!-- Mirrored from staking.sportzchain.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 10 Nov 2022 23:53:16 GMT -->
+</html>

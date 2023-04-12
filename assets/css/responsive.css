@@ -1,0 +1,3407 @@
+@charset "utf-8";
+
+/** 
+*
+* -----------------------------------------------------------------------------
+* Template : GamFi - Metaverse Web3 IGO/IDO Token Launchpad Figma Template
+* Author : uigigs
+* Author URI : http://www.uigigs.com/
+*
+* -----------------------------------------------------------------------------
+*
+**/
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1270px) {
+    .project_clasic_slider_sect .prev {
+        left: 0%;
+    }
+    
+    .project_clasic_slider_sect .next {
+        right: 0%;
+    }
+    
+}
+
+@media only screen and (max-width: 1199px) {
+    .gamfi-header-section .header-menu ul li + li {
+        margin-left: 25px;
+    }
+    .gamfi-about-secion .game-price-item .price-details h3{
+        font-size: 24px;
+    }
+    .gamfi-about-secion .game-price-item{
+        padding: 30px;
+    }
+    .gamfi-previous-section .previous-item .previous-chaining img {
+        margin-right: 60px;
+    }
+    .gamfi-previous-section .previous-item .previous-raise .progress-inner {
+        width: 140px;
+    }
+    .gamfi-previous-section .previous-item .previous-raise span {
+        margin-right: 15px;
+    }
+    .gamfi-project-section .project-item{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .gamfi-project-section .project-item .heading-title h4:before {
+        left: -21px;
+    }
+    .gamfi-project-section .project-item h4{
+        font-size: 20px;
+    }
+    .gamfi-tokenomics-section .pr-63,
+    .gamfi-tokenomics-section .pr-63,
+    .gamfi-tokenomics-section .pr-60{
+        padding-right: 40px;
+    }
+    .gamfi-calendar-list .calender-date {
+        padding: 15px;
+        width: 13%;
+    }
+    .gamfi-previous-section .previous-mainmenu .menu-list.date-menu {
+        padding: 0;
+    }
+    .gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+        width: 330px;
+    }
+    .igo-rankging-table-list tr th, .igo-rankging-table-list tr td {
+        width: 12.28%;
+        padding: 20px 12px;
+    }
+    .igo-rankging-table-list tr th:nth-child(2), .igo-rankging-table-list tr td:nth-child(2) {
+        width: 28%;
+    }
+    .igo-rankging-table-list tr .image-row {
+        padding-top: 14.5px;
+        padding-bottom: 14.5px;
+    }
+    .gamfi-farming-table tr th, .gamfi-farming-table tr td {
+        width: 15.666%;
+    }
+    .gamfi-farming-table tr th:nth-child(5) {
+        width: 24.666%;
+    }
+    .gamfi-farming-content .expeand-centent .farm-form-list input {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+    .project-summary-menu {
+        padding: 48px 30px 15px;
+    }
+    .project-summary-menu .nav button {
+        margin-bottom: 15px;
+    }
+    .project-details-conent .game-price-inner .image-icon img{
+        max-width: 80px;
+    }
+    .gamfi-about-secion .game-price-item .game-price-inner .price-inner .image-icon {
+        margin-right: 15px;
+    }
+    .gamfi-about-secion .game-price-item .game-price-inner .allocation-max .allocation {
+        margin-top: 55px;
+    }
+    .project-details-conent .game-price-item .price-counter {
+        margin-bottom: 26px;
+    }
+    .project-details-conent table td {
+        padding: 17px 15px;
+        font-size: 15px;
+    }
+    .project-details-conent table .table-header th {
+        padding: 17px 20px;
+    }
+    .project-details-conent table .table-header th:nth-child(2) {
+        padding-left: 30px;
+    }
+    .project-details-conent .project-service {
+        padding: 50px 70px 25px;
+    }
+    .project-meta-item .meta-counter,
+    .project-meta-item .meta-counter:first-child,
+    .project-meta-inner .meta-header,
+    .project-details-conent .project-item {
+        padding: 35px 25px;
+    }
+    .project-meta-item .meta-counter{
+        padding-top: 0;
+    }
+    .project-details-conent .project-item .date-listing li label {
+        padding: 8px 12px;
+        font-size: 15px;
+    }
+    .project-details-conent .project-item .project-form-list .balance-form-area input[type="submit"] {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 128px;
+        font-size: 15px;
+    }
+    .participat-information .project-item h4{
+        font-size: 20px;
+    }
+    .participat-information .project-item h3{
+        font-size: 24px;
+    }
+    .staking-information .project-item h4{
+        font-size: 19px;
+        font-family: 'Inter', sans-serif;
+    }
+    .gamfi_v2_hero_left h2{
+        font-size: 43px;
+    }
+    .gamfi-project-section .project-item .heading-title.heading-title-v2 .price-counter:before {
+        left: -20px;
+    }
+    
+    .tier_system_headings ul li, .tier_system_items ul li{
+        margin-right: 25px !important;
+    }
+    .tier_system_headings ul li.weight_headings, .tier_system_items ul li.weight_item {
+        width: 85px;
+        margin-right: 0px !important;
+    }
+    
+    /*New CSS*/
+    .blog-detail-conent .blog-area .blog-description .des {
+        font-size: 16px;
+    }
+    .blog-detail-conent .blog-area .blog-description .blockquote .des-active {
+        font-size: 18px;  
+    }
+    .blog-detail-conent .blog-area .tokenomics-item .project-service {
+        margin-right: 0;
+        padding: 45px 0 20px 30px;
+    }
+    .blog-detail-conent .about-blog p,
+    .blog-detail-conent .blog-description p,
+    .blog-detail-conent .igo-blog p{
+        font-size: 13px;
+    }
+    .blog-detail-conent .blog-area .igo-blog ul li span {
+        font-size: 14px;
+    }
+    .blog-detail-conent .post-item .post-shade h4,
+    .blog-detail-conent .blog-description .des-heading h4,
+    .blog-detail-conent .blog-area .igo-blog h4,
+    .blog-detail-conent .about-blog h4,
+    .blog-detail-conent .blog-area .form-item .form-heading h4,
+    .blog-detail-conent .tag-menu h4,
+    .blog-detail-conent .comment-item h4{
+        font-size: 20px;
+    }
+    .news-letter-item .dsc,
+    .blog-detail-conent .blog-area .comment-item .blog-comment .blog-replay .replay-text p {
+        font-size: 15px;
+    }
+    .post-item .recent-content, 
+    .tag-menu ul li{
+        display: block;
+    }
+    .news-letter-item h4 {
+        font-size: 15px;
+    }
+    .news-letter-item.hover-shape-inner {
+        padding: 30px 25px;
+    }
+    .news-letter-item form input {
+        padding: 15px 10px;
+    }
+    .blog-detail-conent .blog-area .blog-description .des {
+        margin-bottom: 15px;
+    }
+    .blog-detail-conent .about-blog p,
+    .blog-detail-conent .blog-description p,
+    .blog-detail-conent .igo-blog p{
+        margin-bottom: 35px;
+    }
+    .blog-detail-conent .blog-area .form-item .input-submit {
+        margin-bottom: 30px;
+    }
+    .news-letter-item.hover-shape-inner .hover_shape1 {
+        left: 12%;
+    }
+    .news-letter-item.hover-shape-inner .hover_shape2 {
+        left: 59.5%;
+    }
+    .news-letter-item.hover-shape-inner .hover_shape3 {
+        left: 34%;
+    }
+    .blog-detail-conent .blog-area .blog-description .des {
+        font-size: 15px;
+    }
+    .latest-details-content {
+        padding-bottom: 80px;
+    }
+    .latest-details-content .latest-item .latest-text .sec-heading p {
+        font-size: 14px;
+    }
+    .latest-blog-area .latest-text h4{
+        font-size: 19px;
+    }
+    .mega_menu_left_sect{
+        padding-right: 20px;
+    }
+    
+    .mega_menu_right_sect{
+        max-width: 700px;
+    }
+    .home_menu_list_headings h2{
+        font-size: 12px;
+    }
+    .home_menu_list ul li a{
+        font-size: 12px !important;
+    }
+    .mega_menu_right_sect .menu_column{
+        max-width: 180px;
+    }
+    
+    .menu_headings h2{
+        font-size: 12px;
+    }
+    .gamfi-header-section .header-menu ul li .menu_column ul li a{
+        font-size: 12px;
+    }
+    .menu_column ul li span {
+        font-size: 8px;
+        height: 14px;
+    }
+}
+
+@media (max-width: 1199px){
+    .gamfi_header_content_right{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .gamfi_header_progress_bar .progress{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .roadmap_list_sect ul li{
+        font-size: 15px;
+    }
+    
+    .slick-prev {
+        left: 25%;
+        top: -26%;
+    }
+    
+    .slick-next {
+        left: 30%;
+        top: -30%;
+    }
+    .tokenomics_contents_left_custom {
+        margin-left: 80px;
+    }
+    .tokenomics_table table tr td {
+        font-size: 14px;
+        padding: 15px 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .gamfi-project-section .project-item .dsc{
+        font-size: 13px;
+    }
+    .gamfi-previous-section .previous-item .previous-raise span {
+        font-size: 14px;
+    }
+    .gamfi-calendar-list .calender-date > ul > li {
+        max-width: 24px;
+    }
+    .gamfi-farming-content .default-centent {
+        padding: 10px;
+    }
+    .project-details-conent .game-price-item .targeted-raise .targeted-raise {
+        top: -8px;
+    }
+    .roadmap_left_content{
+        padding-right:30px;
+    }
+    .roadmap_right_content{
+        padding-left:30px;
+    }
+    .roadmap_content_box{
+        max-width: 415px;
+        padding: 20px 25px;
+    }
+    .roadmap_content_box1{
+        min-height: 15px;
+    }
+    .roadmap_content_box2{
+        min-height: 185px;
+    }
+    .roadmap_content_box3{
+        min-height: 158px;
+    }
+    .roadmap_content_box4{
+        min-height: 230px;
+        background: url("../images/kycimg/roadMapcpntentBg5.svg");
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .roadmap_content_box5{
+        min-height: 260px;
+        background: url("../images/kycimg/roadMapcpntentBg3.svg");
+        background-position: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .roadmap_content_box6 {
+        background: url("../images/kycimg/roadMapcpntentBg7.svg");
+        min-height: 230px;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    .roadmap_content_box7{
+        min-height: 185px;
+    }
+    .roadmap_2021_divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        min-height: 775px;
+        top: 0px;
+        width: 50px;
+        background: url("../images/kycimg/Roadmap2021.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .roadmap_2022_divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        min-height: 675px;
+        bottom: -65px;
+        width: 50px;
+        background: url("../images/kycimg/roadmap_2022.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .tvl_right_card_headings h3 {
+        font-size: 18px;
+    }
+    .tvl_right_card_content ul li{
+        font-size: 14px;
+    }
+    .article_details h2, .article_details h2 span{
+        font-size: 12px;
+    }
+    .article_details h3 a{
+        font-size: 18px;
+    }
+    .article_details p{
+        font-size: 14px;
+    }
+    .article_details a{
+        font-size: 12px;
+    }
+    .latest_articles_card{
+        min-height: 495px;
+    }
+    .article_details2 h4, 
+    .article_details2 h4 a{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .article_details2 h4 a strong{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .article_details2 h5{
+        font-size: 14px;
+    }
+    
+    .faq_screen_tab{
+        padding: 34px 20px;
+    }
+    .faq_screen_tab ul li{
+        font-size: 15px;
+    }
+    .faq_screen_tab ul li.active, .faq_screen_tab ul li:hover{
+        font-size: 15px;
+    }
+    
+    .project_details_team_members_card h5{
+        font-size: 14px;
+    }
+    .project_details_team_members_card h6{
+        font-size: 12px;
+    }
+    .team_members_img{
+        width: 45%;
+    }
+    .project_details_road_map_content ul li{
+        font-size: 15px;
+    }
+    
+    .project_summary_tabs_sect button a{
+        font-size: 15px;
+    }
+    
+    
+    .gamfi-previous-section.project_clasic_previous_section .previous-item .previous-gaming .previous-price h4{
+        font-size: 18px;
+    }
+    .gamfi-previous-section.project_clasic_previous_section .previous-item .previous-gaming .previous-price .dsc {
+        font-size: 14px;
+    }
+    
+    .project_clasic_slider_text_sect h3 a{
+        font-size: 27px;
+    }
+    .project_clasic_slider_text_sect p{
+        font-size: 14px;
+    }
+    
+    
+    .first_survivor_city_right_section p {
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .project_details_2_schedule_table_headings ul li,
+    .project_details_2_schedule_table_body ul li,
+    .project_details_2_schedule_table_headings ul li, 
+    .project_details_2_allocations_table_body ul li{
+        font-size: 14px;
+    }
+    
+    .governanc_content_right_card ul li p, 
+    .governanc_content_right_card ul li span{
+        font-size: 13px;
+    }
+    .governanc_content_right_card_btns button{
+        font-size: 14px;
+    }
+    .lq_flip_card_headings{
+        padding: 0px 25px;
+    }
+    .lq_flip_card_body{
+        padding: 42px 25px;
+    }
+    .lq_flip_card_front_body .staking_flip_card_front_list{
+        margin-top: 0px;
+    }
+    .staking_flip_card_front_list ul li strong, .staking_flip_card_front_list ul li span{
+        font-size: 12px;
+    }
+    .staking_flip_card_front_reward h6{
+        font-size: 10px;
+    }
+    .staking_flip_card_front_reward h5{
+        font-size: 12px;
+    }
+    .staking_flip_card_back_form form span{
+        font-size: 12px;
+    }
+    .staking_flip_card_back_form_input button{
+        font-size: 12px;
+    }
+    .staking_flip_card_back_form_input input{
+        font-size: 12px;
+    }
+    .staking_flip_card_front_buttons button, .staking_flip_card_back_approve_btn button{
+        font-size: 12px;
+    }
+    .staking_flip_card_front{
+        padding: 40px 20px;
+    }
+    .staking_flip_card_front_timebg{
+        width: 160px;
+        left: -20px;
+        padding-left: 20px;
+    }
+    .staking_flip_card_front_headings h2, .staking_flip_card_back_headings h2{
+        font-size: 25px;
+    }
+    .staking_flip_card_front_timebg span, .staking_apy h3{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .roadmap_left_content{
+        padding-right:30px;
+    }
+    .roadmap_right_content{
+        padding-left:30px;
+    }
+    .roadmap_content_box{
+        max-width: 305px;
+        padding: 20px 25px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .roadmap_content_box ul li{
+        font-size: 14px;
+    }
+    .roadmap_content_box1{
+        min-height: 158px;
+        background: url("../images/kycimg/roadMapcpntentBg1.svg");
+        background-position: right;
+        background-size: cover;
+    }
+    .roadmap_content_box2{
+        min-height: 185px;
+        background: url("../images/kycimg/roadMapcpntentBg5.svg");
+        background-position: left;
+        background-size: cover;
+    }
+    .roadmap_content_box3{
+        min-height: 158px;
+        background: url("../images/kycimg/roadMapcpntentBg2.svg");
+        background-position: right;
+        background-size: cover;
+    }
+    .roadmap_content_box4{
+        min-height: 216px;
+        background: url("../images/kycimg/roadMapcpntentBg6.svg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .roadmap_content_box5{
+        min-height: 260px;
+        background: url("../images/kycimg/roadMapcpntentBg3.svg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .roadmap_content_box6 {
+        background: url("../images/kycimg/roadMapcpntentBg7.svg");
+        min-height: 230px;
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    .roadmap_content_box7{
+        min-height: 185px;
+        background: url("../images/kycimg/roadMapcpntentBg4.svg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    
+    .article_details h2, .article_details h2 span{
+        font-size: 11px;
+    }
+    .article_details h3 a{
+        font-size: 20px;
+    }
+    .article_details p{
+        font-size: 14px;
+    }
+    .article_details a{
+        font-size: 12px;
+    }
+    
+    .latest_articles_card{
+        min-height: 495px;
+    }
+    .article_details2 h4, .article_details2 h4 a{
+        font-size: 17px;
+        line-height: 35px;
+    }
+    .article_details2 h4 a strong{
+        font-size: 17px;
+        line-height: 35px;
+    }
+    .article_details2 h5{
+        font-size: 14px;
+    }
+    
+    .faq_screen_tab_sect {
+        padding-right: 0px;
+    }
+    .faq_screen_tab{
+        padding: 25px 16px;
+    }
+    
+    .faq_screen_tab ul li, .faq_screen_tab ul li.active, .faq_screen_tab ul li:hover{
+        font-size: 13px;
+    }
+    .faq_screen_tab ul li span {
+        margin-left: 10px;
+        width: 45px;
+    }
+    .faq_screen_tab_content{
+        padding-left: 0px;
+    }
+    
+    .faq_content_sect.accordion{
+        font-size: 18px;
+    }
+    
+    .project_details_road_map_content ul li{
+        line-height: 158%;
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .project_details_road_map_content ul li span{
+        min-width: 14px;
+        max-width: 14px;
+    }
+    
+    .project-summary-menu {
+        padding: 30px 13px;
+    }
+    
+    
+    .project_summary_tabs_sect button a{
+        font-size: 14px;
+    }
+    .project_summary_tabs_sect button a img{
+        width: 40px;
+    }
+    
+    .gamfi-previous-section.project_clasic_previous_section .previous-item .previous-gaming .previous-price h4{
+        font-size: 16px;
+    }
+    
+    .gamfi-previous-section.project_clasic_previous_section .previous-item .previous-gaming .previous-price .dsc{
+        font-size: 12px;
+    }
+    
+    .gamfi-previous-section.project_clasic_previous_section .previous-item .previous-EndsIn.list3_custom span{
+        font-size: 10px;
+    }
+    
+    .gamfi-previous-section .previous-item .previous-raise.list4_custom span{
+        font-size: 10px;
+    }
+    .project_clasic_custom_progress_sect p{
+        font-size: 10px;
+    }
+    
+    .live_project_headings h2{
+        font-size: 30px;
+    }
+    .live_project_headings{
+        max-width: 285px;
+    }
+    .project_clasic_slider_bg{
+        padding: 30px;
+    }
+    .project_clasic_slider_img_and_title_sect img{
+        max-width: 50px;
+    }
+    .project_clasic_slider_text_sect{
+        margin-left: 15px;
+    }
+    .project_clasic_slider_text_sect h3{
+        margin-bottom: 0px;
+    }
+    .project_clasic_slider_text_sect h3 a{
+        font-size: 19px;
+    }
+    .project_clasic_slider_text_sect p{
+        font-size: 11px;
+    }
+    .project_clasic_slider_right_timer h2{
+        font-size: 11px;
+    }
+    .project_clasic_slider_right_timer .price-counter .timer ul li{
+        font-size: 19px;
+    }
+    .project_clasic_slider_rise_conten h2, .access_allocaiont_text h2{
+        font-size: 12px;
+    }
+    .project_clasic_slider_rise_conten span, .access_allocaiont_text span{
+        font-size: 10px;
+    }
+    .project_clasic_slider_right_timer h2{
+        margin-bottom: 10px;
+    }
+    .project_clasic_slider_right_timer{
+        margin-bottom: -5px;
+    }
+    .project_clasic_slider_social_links li a i{
+        font-size: 18px;
+    }
+    .project_clasic_slider_bg{
+        min-height: 350px;
+    }
+    .project_clasic_slider_sect .prev {
+        left: -7%;
+    }
+    .project_clasic_slider_sect .next {
+        right: -7%;
+    }
+    .project_clasic_slider_sect .prev img, .project_clasic_slider_sect .next img{
+        height: 30px;
+    }
+    
+    .project_clasic_2_container_right_headings h2 {
+        margin-bottom: 5px;
+    }
+    
+    .project_clasic_2_container_right_headings h2 a {
+        font-size: 22px;
+    }
+    
+    .project_clasic_2_container_right_headings p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .project_clasic_2_container_right_headings span {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .total_rised_progress_headings h3, 
+    .total_rised_progress_headings p{
+        font-size: 12px;
+    }
+    .total_rised_progress_sale_airdrop_sect p{
+        font-size: 12px;
+    }
+    .access_allocation_participants_sect ul li span,
+    .access_allocation_participants_sect ul li p{
+        font-size: 12px;
+    }
+    .project_clasic_2_container_social_sect ul{
+        max-width: 200px;
+    }
+    .project_clasic_2_container_social_sect ul li a i{
+        font-size: 16px;
+    }
+    .project_clasic_2_container_left{
+        min-height: 335px;
+    }
+    .access_allocation_participants_sect{
+        margin-top: 10px;
+    }
+    .project_clasic_2_container_social_sect{
+        margin-top: 35px;
+    }
+    .project_clasic_2_timer{
+        width: 210px;
+    }
+    .project_clasic_2_left_content_img{
+        height: 50px;
+        width: 50px;
+    }
+    .project_clasic_2_timer .price-counter .timer ul{
+        max-width: 140px;
+    }
+    .project_clasic_2_timer .price-counter .timer ul li{
+        font-size: 13px;
+    }
+    .project_clasic_2_timer .price-counter .timer ul li span{
+        font-size: 10px;
+    }
+    
+    
+    .first_survivor_city_left_timer{
+        width: 245px;
+        height: 40px;
+    }
+    .first_survivor_city_left_timer .price-counter ul{
+        width: 165px;
+        padding-top: 8px;
+    }
+    .first_survivor_city_left_timer .price-counter ul li{
+        font-size: 17px;
+    }
+    .first_survivor_city_left_timer .price-counter ul li span{
+        font-size: 10px;
+    }
+    .first_survivor_city_left_section .chain_img{
+        width: 40px;
+    }
+    .first_survivor_city_right_project_name{
+        margin-left: 20px;
+    }
+    .first_survivor_city_right_project_name h2{
+        margin-bottom: 0px;
+    }
+    .first_survivor_city_right_project_name h2 a{
+        font-size: 23px;
+    }
+    .first_survivor_city_right_project_name span{
+        font-size: 13px;
+    }
+    .first_survivor_city_right_project_img{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .first_survivor_city_right_section p{
+        font-size: 13px;
+        line-height: 26px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .first_survivor_city_right_button button{
+        font-size: 13px;
+        height: 40px;
+    }
+    .first_survivor_city_left_section .total_rised_progress_sect{
+        margin-top: 100px;
+    }
+    
+    .pool_and_token_info_list ul li p.pool_and_token_info_list_left, 
+    .pool_and_token_info_list ul li p.pool_and_token_info_list_right{
+        font-size: 13px;
+    }
+    .pool_and_token_info_list ul li p.pool_and_token_info_list_right span{
+        margin-right: 15px;
+    }
+    
+    .v3_project_clasic_2_container_right_sect {
+        padding: 15px 22px 22px 0px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .gamfi-header-section .gamfi-btn-area ul .nav-expander{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .breadcrumbs-form .gamfi-navigation {
+        margin-left: 20px;
+    }
+    .kyc_form .upload_doc_sect ul li h4 {
+        font-size: 11px;
+    }
+    
+    .kyc_personal_info_form form .InputNameSect, 
+    .kyc_personal_info_form form .InputAddressSect,
+    .kyc_personal_info_form form .InputCitySect{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .kyc_personal_info_form form .InputNameSect .FirstNameFild, 
+    .kyc_personal_info_form form .InputNameSect .LastNameFild, 
+    .kyc_personal_info_form form .InputAddressSect .Address1Fild, 
+    .kyc_personal_info_form form .InputAddressSect .Address2Fild,
+    .kyc_personal_info_form form .InputCitySect .CityFild, 
+    .kyc_personal_info_form form .InputCitySect .PostCodeFild {
+        width: 100%;
+    }
+    .roadmap_2021_divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        min-height: 750px;
+        top: 0px;
+        width: 50px;
+        background: url("../images/kycimg/Roadmap2021.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .roadmap_2022_divider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        min-height: 650px;
+        bottom: -10px;
+        width: 50px;
+        background: url("../images/kycimg/roadmap_2022.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .buy-token-logos ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .buy-token-logos ul li{
+        width: 47%;
+        margin-right: 0px;
+        margin-bottom: 26px;
+    }
+    
+    .key_points_item_text h3{
+        font-size: 16px;
+    }
+    .key_points_item_text p{
+        font-size: 12px;
+        line-height: 158%;
+    }
+    
+    .tvl_right_card_headings h3 {
+        font-size: 16px;
+    }
+    .tvl_right_card_content ul li{
+        font-size: 12px;
+    }
+    .tvl_headings h3{
+        font-size: 26px;
+    }
+    .tvl_headings h2{
+        font-size: 20px;
+    }
+    .tvl_list ul li{
+        font-size: 14px;
+    }
+    
+    .tier_v2_col_headings h2{
+        font-size: 30px;
+    }
+    .tier_v2_col_headings h3{
+        font-size: 17px;
+    }
+    
+    .tier_v2_col_body ul li h4 {
+        font-size: 13px;
+    }
+    .tier_v2_col_body ul li h5 {
+        font-size: 11px;
+    }
+    
+    .v1_tokenomics_content_list_progress{
+        height: 40px;
+    }
+    .v1_tokenomics_content_list_text h4{
+        font-size: 13px;
+    }
+    .v1_tokenomics_content_list_text h5{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    
+    
+    .gamfi-tokenomics-section .tokenomics-counter h5{
+        font-size: 14px;
+    }
+    
+}
+
+@media only screen and (max-width: 991px) {
+    .gamfi-header-section .heaader-inner-area ul li.buy-token,
+    .gamfi-header-section .header-menu{
+        display: none;
+    }
+    .sc-banner .banner-content .banner-title {
+        margin: 0 0 20px;
+        font-size: 40px;
+    }
+    .banner-btn{
+        padding: 14px 30px;
+    }
+    .gamfi-about-secion .game-price-item .game-price-inner .price-inner,
+    .gamfi-about-secion .game-price-item .game-price-inner{
+        display: block !important;
+    }
+    .gamfi-about-secion .allocation-max,
+    .gamfi-about-secion .total-price, 
+    .gamfi-about-secion .targeted-raise{
+        width: 100%;
+    }
+    .gamfi-about-secion .game-price-item .game-price-inner .allocation-max .allocation {
+        margin-top: 35px;
+    }
+    .gamfi-about-secion .game-price-item .game-price-inner .targeted-raise .targeted-raise,
+    .gamfi-about-secion .game-price-item .game-price-inner .all-raise,
+    .gamfi-about-secion .game-price-item .game-price-inner .price-inner{
+        text-align: center !important;
+    }
+    .gamfi-about-secion .game-price-item .game-price-inner .targeted-raise .targeted-raise,
+    .gamfi-about-secion .game-price-item .game-price-inner .price-inner .image-icon{
+        margin-bottom: 10px;
+    }
+    .gamfi-about-secion .game-price-item .game-price-inner .price-inner .image-icon{
+        margin-right: 0;
+    }
+    .banner-slider-inner .timer {
+        max-width: 400px;
+        margin: 0 auto 20px;
+    }
+    .sc-banner {
+        padding: 150px 0 200px;
+    }
+    .participate-item .number-image {
+        flex: 0 0 15%;
+    }
+    .apply-heading h2,
+    .gamfi-footer-section .footer-cta-area .title,
+    .sec-heading .title{
+        font-size: 30px;
+    }
+    .gamfi-project-section{
+        padding-top: 75px;  
+        padding-bottom: 45px;  
+    }
+    .gamfi-previous-section .previous-item {
+        padding: 20px;
+    }
+    .gamfi-previous-section .previous-item .previous-gaming .previous-price h4{
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    .gamfi-previous-section .previous-item .previous-chaining img {
+        margin-right: 20px;
+    }
+    .gamfi-previous-section .previous-item .previous-gaming img {
+        width: 50px;
+    }
+    .gamfi-previous-section .previous-mainmenu ul .list1 {
+        width: 31.5%;
+    }
+    .gamfi-tokenomics-section .tokenomics-menu,
+    .gamfi-tokenomics-section .pr-63,
+    .gamfi-tokenomics-section .pr-63,
+    .gamfi-tokenomics-section .pr-60 {
+        padding-right: 30px;
+    }
+    .gamfi-footer-section .footer-listing .footer-icon-list i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin: 0 8px;
+        font-size: 18px;
+    }
+    .gamfi-footer-section .footer-area {
+        padding-top: 150px;
+            /* margin-top: -44px; */
+
+    }
+    .gamfi-footer-section .footer-cta-area {
+        padding: 60px 20px
+    }
+    .team-item img {
+        margin-bottom: 30px;
+    }
+    .gamfi-about-secion .game-price-item .price-details h3{
+        margin-bottom: 5px;
+    }
+    .gamfi-breadcrumbs-section .breadcrumbs-form {
+        justify-content: flex-start;
+    }
+    .gamfi-footer-section .copyright-area .dsc{
+        margin-bottom: 25px;
+    }
+    .gamfi-previous-section .previous-mainmenu .menu-list .date-list {
+        width: 12%;
+    }
+    .gamfi-calendar-list{
+        justify-content: flex-start;
+    }
+    .gamfi-calendar-list .calender-date {
+        width: 24%;
+    }
+    .project-menu-area ul li a, 
+    .project-menu-area ul li .tab-link {
+        padding: 14px 13px;
+    }
+    .project-menu-area ul li:last-child{
+        border: none;
+    }
+    .gamfi-farming-table tr th:first-child, 
+    .gamfi-farming-table tr td:first-child {
+        width: 14.666%;
+    }
+    .gamfi-farming-table tr th:nth-child(5) {
+        width: 35.666%;
+    }
+    .gamfi-farming-content .list-1 {
+        flex: 0 0 32%;
+        width: 32%;
+    }
+    .project-menu-area .al-access-menu > li:after, 
+    .project-menu-area .al-access-menu > li:before {
+        top: 22px;
+    }
+    .gamfi-farming-content .list-content {
+        flex: 0 0 100%;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .gamfi-farming-content .default-centent,
+    .gamfi-farming-content .expeand-bottom-content .expeand-centent .expeand-farm{
+        display: block !important;
+    }
+    .gamfi-farming .farm-form-list{
+        width: 100%;
+    }
+    .gamfi-farming-content .default-centent{
+        padding-top: 28px;
+    }
+    .gamfi-farming-table table{
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+    .gamfi-farming .farm-form-list {
+        margin-bottom: 30px;
+    }
+    .gamfi-farming .farm-form-list:last-child{
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .gamfi-farming .farm-form-list .farm-form{
+        margin-bottom: 0;
+    }
+    .igo-rankging-table-list tr th:nth-child(2), 
+    .igo-rankging-table-list tr td:nth-child(2) {
+        min-width: 225px;
+    }
+    .igo-rankging-table-list tr th:last-child, 
+    .igo-rankging-table-list tr td:last-child {
+        width: 10.28%;
+    }
+    .igo-rankging-table-list tr th, 
+    .igo-rankging-table-list tr td {
+        padding: 20px 5px;
+    }
+    .igo-rankging-table-list tr .image-row img {
+        margin-right: 5px;
+    }
+    .igo-rankging-table-list tr{
+        display: flex;
+    }
+    .gamfi-previous-section .previous-mainmenu ul li,
+    .igo-rankging-table-list tr th{
+        font-size: 14px;
+    }
+    
+    .leaderboard-table-list tr th,
+    .leaderboard-table-list tr td {
+        padding: 15px 8px;
+        font-size: 15px;
+    }
+    .gamfi-previous-section .previous-item .previous-gaming .previous-price .dsc {
+        font-size: 14px;
+    }
+    .project-details-conent .game-price-item .price-counter{
+        max-width: 300px;
+        margin: 0 auto 20px;
+    }
+    .project-details-conent .banner-bottom-content .social-icon-list li {
+        margin-left: 0;
+    }
+    .project-details-conent .project-item {
+        padding: 35px 20px;
+    }
+    .project-details-conent .project-service{
+        display: block;
+    }
+    .project-details-conent .project-service .project-image{
+        margin: 0 0 40px;
+    }
+    .project-summary-menu .nav button img{
+        display: none;
+    }
+    .project-details-conent .project-service {
+        padding: 50px 40px 25px;
+    }
+    .project-details-conent .banner-bottom-content .social-icon-list li i,
+    .project-details-conent .game-price-item .text-content {
+        font-size: 15px;
+    }
+    .project-details-conent .readon {
+        padding: 8px 15px;
+    }
+    .project-details-conent .project-item .project-info {
+        margin-bottom: 0;
+    }
+    .participat-information .project-item .date-listing{
+        padding-top: 20px;
+    }
+    .staking-information .project-item .date-listing{
+        padding-top: 20px;
+    }
+    .project-details-conent .project-item ul.date-listing {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .gamfi_header_content_right {
+        display: block;
+        margin-top: 10px;
+    }
+    
+    /*New CSS*/
+    .blog-detail-conent {
+        padding-bottom: 80px;
+    }
+    .blog-detail-conent .blog-area .blog-description .des {
+        font-size: 18px;
+    }
+    .blog-detail-conent .about-blog p,
+    .blog-detail-conent .blog-description p,
+    .blog-detail-conent .igo-blog p {
+        font-size: 15px; 
+    }
+    .blog-detail-conent .blog-area .blog-description .blockquote .des-active {
+        font-size: 20px;
+    }
+    .post-item .recent-content {
+        display: flex;
+    }
+    .gamfi-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
+        font-size: 50px;
+    }
+    .blog-detail-conent .blog-area .blog-description .des {
+        font-size: 16px;
+    }
+    
+    .staking_bradcome_right{
+        margin-right: auto;
+        margin-left: 0px;
+    }
+    .staking_lq_bradcome_right ul{
+        justify-content: flex-start;
+    }
+    .staking_lq_bradcome_right ul li{
+        text-align: left
+    }
+    
+}
+
+@media (max-width: 991px){
+    .governancdetaile_content_left{
+        padding-right: 0px;
+    }
+    .gamfi-breadcrumbs-section .breadcrumbs-form.breadcrumbs_progress_bar_custom {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start !important;
+        margin-top: 25px;
+    }
+    .gamfi_header_progress_bar .progress {
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 400px;
+    }
+    .kyc_form .upload_doc_sect ul li h4{
+        width: 74%;
+        margin: auto;
+    }
+    
+    .gamfi_header_v2_menu_list ul.v2_main_menu_list{
+        display: none;
+    }
+    .gamfi_v2_hero_left h2{
+        font-size: 45px;
+        line-height: 158%;
+    }
+    .gamfi_v2_hero_left p{
+        font-size: 17px;
+    }
+    .gamfi_V2_hero_Btns .view_projects_btn,
+     .gamfi_v2_hero_btns .Apply_Project_Btn{
+        width: 150px;
+        height: 50px;
+    }
+    .gamfi_V2_hero_Btns .view_projects_btn .btn-text, 
+    .gamfi_V2_hero_Btns .Apply_Project_Btn .btn-text{
+        font-size: 14px;
+    }
+    .tokenomics_list_sect ul{
+        margin-right: 50px;
+    }
+    .multi_chain_support_right_list ul{
+        margin-right: 30px;
+    }
+    .multi_chain_support_right_list ul li{
+        font-size: 15px;
+    }
+    .gamfisubscriveSect input{
+        max-width: 390px;
+        height: 52px;
+    }
+    
+    .project_v2_tab_btns ul li button {
+        width: 125px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px !important;
+    }
+    .project_v2_tab_btns ul li button .btn-text{
+        font-size: 13px;
+    }
+    
+    .roadmap_tab_btns ul li button {
+        width: 100px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px !important;
+    }
+    .roadmap_tab_btns ul li button .btn-text{
+        font-size: 13px;
+    }
+    
+    .tier_system_items ul li span{
+        max-width: 18px;
+        min-width: 18px;
+    }
+    .tier_system_items ul li strong{
+        font-size: 12px;
+    }
+    .tier_system_headings ul li, .tier_system_items ul li{
+        font-size: 12px;
+        margin-right: 10px !important;
+    }
+    .tier_system_items ul li.tiersItem{
+        width: 113px;
+    }
+    .tier_system_items ul li.StakingItem{
+        width: 125px;
+    }
+    .tier_system_items ul li.allocationItem{
+        width: 150px;
+    }
+    .tier_system_items ul li.RequirementsItem{
+        width: 125px;
+    }
+    .tier_system_headings ul li.weight_headings, .tier_system_items ul li.weight_item{
+        width: 60px;
+    }
+    
+    .roadmap_list_sect ul li {
+        font-size: 12px;
+    }
+    .roadmap_list_sect ul li span{
+        min-width: 10px;
+        max-width: 10px;
+    }
+    
+    .slick-prev {
+        left: 28%;
+        top: -20%;
+    }
+    
+    .slick-next {
+        left: 34%;
+        top: -23%;
+    }
+    .sc_banner_v3_left h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .sc_banner_v3_left p{
+        font-size: 15px;
+    }
+    .sc_banner_v3_right ul li h3 {
+        font-size: 12px;
+    }
+    .sc_banner_v3_right ul li h4{
+        font-size: 16px;
+    }
+    .gamfi_v3_project_pools_btn li button{
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .how_to_participate_right_card_number{
+        min-width: auto;
+    }
+    
+    .tokenomics_contents_left_custom{
+        margin-left: 20px;
+    }
+    
+    
+    .project_details_2_schedule_table,
+    .project_details_2_allocations_table{
+        overflow-y: scroll;
+    }
+    
+    .project_details_2_schedule_table_headings, 
+    .project_details_2_schedule_table_body,
+    .project_details_2_schedule_table_headings, 
+    .project_details_2_allocations_table_body{
+        min-width: 920px;
+    }
+    
+    .project_details_2_schedule_table_headings ul li,
+    .project_details_2_schedule_table_body ul li, 
+    .project_details_2_schedule_table_headings ul li,
+    .project_details_2_allocations_table_body ul li{
+        font-size: 14px;
+    }
+    
+    .latest-details-content .latest-content{
+        padding-right: 0px;
+    }
+    .governanc_content_right_card{
+        max-width: 100%;
+    }
+    .governanc_content_left_headings{
+        margin-top: 50px;
+    }
+    
+    .governanc_content_left .gamfi-navigation{
+        text-align: center;
+    }
+    
+}
+.project-details-conent .table-item h4 {
+    font-size: 19px;
+    font-family: 'Inter', sans-serif;
+}
+.project-details-conent .table-item h5,
+ .project-details-conent .table-item {margin-bottom:8px !important}
+@media only screen and (max-width: 767px) {
+    .gamfi-footer-section .footer-area {
+        padding-top: 50px;
+    }
+    
+    .sc-banner .banner-content .banner-title {
+        font-size: 30px;
+    }
+     .project-details-conent .table-item .table th:nth-child(1),
+        .project-details-conent .table-item .table td:nth-child(1){
+        width:300px
+        }
+    .gamfi-footer-section .footer-cta-area .title, .sec-heading .title {
+        font-size: 26px;
+    }
+    .gamfi-previous-section .previous-mainmenu ul{
+        padding: 0;
+    }
+    .project-menu-area .project-right-menu ul li,
+    .gamfi-previous-section .previous-item,
+    body .gamfi-previous-section .previous-mainmenu ul li{
+        display: block;
+    }
+    body .gamfi-previous-section .previous-mainmenu ul li{
+        padding: 0 0 14px;
+        left:  0 !important;
+    }
+    .project-menu-area .project-right-menu ul li:first-child{
+        border:  none;
+    }
+    .gamfi-previous-section .previous-item .previous-raise,
+    .gamfi-previous-section .previous-item .previous-chaining,
+    .gamfi-previous-section .previous-item .previous-gaming{
+        width: 100% ;
+    }
+    body .gamfi-previous-section .previous-mainmenu ul li{
+        width: 100% !important;
+    }
+    .gamfi-previous-section .previous-item .previous-chaining{
+        margin: 20px 0;
+    }
+    .gamfi-header-section .white-btn {
+        padding: 9px 20px 8px;
+    }
+    .gamfi-form-content .address-form input {
+        padding: 10px 15px;
+    }
+    .gamfi-form-content .address-form .input-button i{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .gamfi-footer-section .footer-cta-area .footer-link input[type="submit"] {
+        padding: 14px 30px;
+    }
+    .gamfi-footer-section .footer-cta-area .footer-link input[type="email"] {
+        width: 290px;
+    }
+    .gamfi-calendar-list .calender-date {
+        width: 32%;
+    }
+    .project-menu-area {
+        display: block !important;
+    }
+    .gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+        width: 300px;
+    }
+    .gamfi-farming .project-menu-area ul button{
+        width: 100%;
+        text-align: left;
+    }
+    .gamfi-breadcrumbs-section .breadcrumbs-form,
+    .gamfi-farming .project-menu-area ul button,
+    .gamfi-farming .project-menu-area ul{
+        display: block;
+    }
+    .gamfi-farming .form-switch {
+        padding: 8px 12px;
+    }
+    .gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"]{
+        width: 100%;
+    }
+    .gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+        margin: 0 0 20px;
+    }
+    body .gamfi-farming-table tr th, 
+    body .gamfi-farming-table tr td {
+        display: block;
+        width: 100% !important;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    .gamfi-farming-content .expeand-centent .expeand-menu ul li {
+        display: block;
+        margin: 0 0 10px;
+    }
+    .leaderboard-table-list table,
+    .igo-rankging-table-list table{
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+    .leaderboard-table-list tr{
+        display: flex;
+    }
+    .igo-rankging-table-list tr th:nth-child(1),
+    .igo-rankging-table-list tr td:nth-child(1) {
+        min-width: 65px;
+    }
+    .leaderboard-table-list tr th:nth-child(3),
+    .leaderboard-table-list tr td:nth-child(3) {
+        min-width: 160px;
+    }
+    .leaderboard-table-list tr th:nth-child(2), 
+    .leaderboard-table-list tr td:nth-child(2){
+        min-width: 140px;
+    }
+    .leaderboard-table-list tr th:nth-child(1), 
+    .leaderboard-table-list tr td:nth-child(1), 
+    .leaderboard-table-list tr th:nth-child(4), 
+    .leaderboard-table-list tr td:nth-child(4) {
+        min-width: 100px;
+    }
+    .igo-rankging-table-list tr th:last-child,
+    .igo-rankging-table-list tr td:last-child {
+        min-width: 80px;
+    }
+    .igo-rankging-table-list tr td:nth-child(1) {
+        padding-left: 8px;
+    }
+    .project-details-conent .banner-bottom-content .social-icon-list li i {
+        padding-left: 5px;
+    }
+    .project-details-conent .project-value-inner .project-value-image{
+        margin-top: 15px;
+    }
+    .project-meta-item .meta-counter h3,
+    .project-details-conent .project-item h3{
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .project-meta-inner .meta-header p{
+        margin-bottom: 0;
+    }
+    .breadcrumbs-form .gamfi-navigation ul{
+        justify-content: flex-start;
+    }
+    .loader_first .circular-spinner {
+        left: 45%;
+    }
+    .get_in_touch_contact_content {
+        padding-top: 20px;
+    }
+    .get_in_touch_contact_sect {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        max-width: 330px;
+        width: 100%;
+        padding-left: 0px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    
+    /*New CSS*/
+    .blog-detail-conent .blog-area .tokenomics-item .project-service {
+        display: block !important;
+        text-align: center;
+        padding-left: 130px;
+    }
+    .blog-detail-conent .blog-area .tokenomics-item .project-service .project-image img {
+        margin-right: 140px;
+        margin-bottom: 30px;
+    }
+    .blog-detail-conent .blog-area .comment-item .blog-comments {
+        margin-right: 25px;
+        left: 0;
+    }
+    .gamfi-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
+        font-size: 40px;
+    }
+    .blog-detail-conent .blog-area .blog-description .blockquote .des-active {
+        font-size: 15px;
+    }
+    .blog-detail-conent .blog-area .comment-item .blog-comment .blog-replay {
+        display: block;
+    }
+    .blog-detail-conent .blog-area .comment-item .blog-comment .blog-replay .replay-image img {
+        margin-bottom: 15px;
+        padding-left: 25px;
+    }
+    .gamfi-footer-section .footer-cta-area .title, .sec-heading .title {
+        font-size: 22px;
+    }
+    .blog-detail-conent .blog-area .blog-description .des {
+        font-size: 18px;
+    }
+    .latest-details-content .latest-blog-area .latest-image img{
+        min-width: 100%;
+    }
+    .blog-detail-conent .blog-area .about-blog .blog-contact .previous-item {
+        display: block;
+    }
+    .blog-detail-conent .blog-area .about-blog .blog-contact .next-item {
+        display: block;
+    }
+    .blog-detail-conent .blog-area .comment-item .blog-comments {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    
+    
+    .v1_tokenomics_content_list_sect{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .v1_tokenomics_content_list{
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .v1_tokenomics_content_list_text{
+        min-width: 91px;
+    }
+    
+    .v1_tokenomics_content_list_1, 
+    .v1_tokenomics_content_list_2,
+    .v1_tokenomics_content_list_3, 
+    .v1_tokenomics_content_list_4,
+    .v1_tokenomics_content_list_5,
+    .v1_tokenomics_content_list_6,
+    .v1_tokenomics_content_list_7{
+        width: 100%;
+        flex-direction: row;
+    }
+    
+    .v1_tokenomics_content_list_text h5{
+        margin-bottom: 0px;
+    }
+    
+    .v1_tokenomics_content_list_progress1{
+        width: 100px;
+    }
+    .v1_tokenomics_content_list_progress2{
+        width: 120px;
+    }
+    .v1_tokenomics_content_list_progress3{
+        width: 130px;
+    }
+    .v1_tokenomics_content_list_progress4{
+        width: 160px;
+    }
+    .v1_tokenomics_content_list_progress5{
+        width: 190px;
+    }
+    .v1_tokenomics_content_list_progress6{
+        width: 200px;
+    }
+    .v1_tokenomics_content_list_progress7{
+        width: 270px;
+    }
+    
+    .v1_tokenomics_content_list_text{
+        margin-bottom: 0px;
+    }
+    .v1_tokenomics_content_list_text h4, 
+    .v1_tokenomics_content_list_text h5 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .v1_tokenomics_content_list_progress{
+        height: 40px;
+    }
+    
+    
+    
+    .gamfi-previous-section .previous-mainmenu ul .list1.list1_custom {
+        width: 31%;
+    }
+    
+    
+    .gamfi-previous-section .previous-mainmenu ul .list2.list2_custom,
+    .gamfi-previous-section .previous-mainmenu ul .list3.list3_custom,
+    .gamfi-previous-section .previous-mainmenu ul .list4.list4_custom,
+    .gamfi-previous-section .previous-mainmenu ul .list5.list5_custom,
+    .gamfi-previous-section .previous-item .previous-gaming.list1_custom,
+    .gamfi-previous-section .previous-item .previous-chaining.list2_custom,
+    .gamfi-previous-section .previous-item .previous-EndsIn.list3_custom,
+    .gamfi-previous-section .previous-item .previous-raise.list4_custom,
+    .gamfi-previous-section .previous-item .previousProgress.list5_custom {
+        width: 100%;
+    }
+    
+    .project_clasic_custom_progress_sect .progress_bg {
+        max-width: 90%;
+    }
+    
+    .project_clasic_slider_img_and_title_sect{
+        flex-direction: column;
+    }
+    .project_clasic_slider_text_sect{
+        margin-left: 0px;
+        margin-top: 16px;
+        text-align: center;
+    }
+    .project_clasic_slider_right_timer h2{
+        text-align: center;
+    }
+    .project_clasic_slider_claim_btn{
+        text-align: center;
+        position: absolute;
+        bottom: 110px;
+        width: 100%;
+        left: 0px;
+    }
+    .project_clasic_slider_social_links{
+        margin: auto;
+        margin-top: 130px;
+    }
+    
+    .v3_project_clasic_2_container_right_sect {
+        padding: 0px 30px 30px 30px ;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px){
+    .kyc_form .upload_doc_sect ul li h4{
+        width: 80%;
+        margin: auto;
+        line-height: 158%;
+        margin-top: 16px;
+    }
+    .kyc_form .upload_doc_sect .upload-btn-wrapper span{
+        height: 60px;
+        width: 60px;
+    }
+    .kyc_form .upload_btn_bg{
+        height: 110px;
+    }
+}
+
+@media (max-width: 768px){
+    .project-details-conent .table-item > div{
+        padding: 0 15px !important;
+    }
+    .project-details-conent .table-item .table{
+        display: block;
+        overflow-x: auto;
+        }
+        .project-details-conent .table-item .table tr{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        }
+        .project-details-conent .table-item .table th,
+        .project-details-conent .table-item .table td{
+        width:180px;
+          padding-right: 0;
+  }
+        .project-details-conent .table-item .table th:nth-child(1),
+        .project-details-conent .table-item .table td:nth-child(1){
+        width:320px
+        }
+        .project-details-conent .table-item .table th:nth-child(4),
+        .project-details-conent .table-item .table td:nth-child(4){
+        width:200px;
+        }
+    .gamfi_header_content_right {
+        margin-top: 24px;
+    }
+    .kyc_country_drop_box, 
+    .kyc_radio_btn, 
+    .kyc_form button{
+        max-width: 100%;
+    }
+    .kyc_qrcode_sect{
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .kyc_qrcode_content h2{
+        text-align: center;
+    }
+    .team_details_img{
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .team_members_info{
+        padding-left: 0px;
+    }
+    .kyc_form .upload_doc_sect ul,
+    .upload_doc_check_list, 
+    .nid_number_sect form input{
+        max-width: 100%;
+    }
+    .kyc_form{
+        padding: 20px 0px;
+    }
+    .kyc_your_documentsSect {
+        align-items: center;
+        margin-top: 40px;
+    }
+    .kyc_your_documents_content h3{
+        text-align: center;
+    }
+    .roadmap_sect{
+        height: auto;
+    }
+    .roadmap_content_box{
+        margin-top: 50px;
+    }
+    .roadmap_left_content{
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+    }
+    .roadmap_right_content{
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .roadmap_2022{
+        margin-top: 100px;
+    }
+    .roadmap_2021_divider {
+        display: none;
+    }
+    .roadmap_2022_divider {
+        display: none;
+    }
+    .roadmap_2021{
+        margin-top: 40px;
+    }
+    .gamfi_v2_hero_right{
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .market_cap_content h2 {
+        font-family: "Russo One";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 45px;
+        margin-bottom: 0px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    
+    .market_cap_content h3 {
+        font-family: "Russo One";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #6D4AFE;
+        margin-bottom: 0px;
+    }
+    
+    .tokenomics_list_sect ul{
+        margin-right: 80px;
+    }
+    .multi_chain_support_right_list ul{
+        margin-right: 60px;
+    }
+    .multi_chain_support_left_sect{
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .faq_questions .accordion{
+        font-size: 16px;
+        padding: 24px 20px;
+        height: auto;
+    }
+    .faq_questions .accordion-panel p{
+        font-size: 13px;
+    }
+    .gamfisubscriveSect input {
+        max-width: 300px;
+        height: 52px;
+    }
+    .project_v2_tab_btns ul li button{
+        width: 100px;
+        padding: 0px !important;
+    }
+    .roadmap_tab_btns ul li button{
+        width: 90px;
+    }
+    
+    .tier_system_headings ul {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0px 26px;
+        flex-direction: column;
+        width: auto;
+        align-items: flex-start;
+    }
+    .tier_system_headings ul li{
+        font-size: 16px;
+    }
+    .tier_system_items ul{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tier_system_items ul li strong{
+        font-size: 16px;
+    }
+    .tier_system_items ul li {
+        font-size: 16px;
+        margin-bottom: 16px;
+        width: auto !important;
+    }
+    .tier_system_items ul li span{
+        min-width: 40px;
+        max-width: 40px;
+    }
+    
+    .tier_system_items ul li.weight_item{
+        margin-bottom: 0px;
+    }
+    
+    .tier_system_items .bg-shape{
+        left: 17%;
+    }
+    
+    .slick-prev {
+        left: 0%;
+        top:  0%;
+    }
+    
+    .slick-next {
+        left: 0%;
+        top: 0%;
+    }
+    .sc_banner_v3_right ul{
+        margin-bottom: 50px;
+    }
+    .gamfi_v3_project_pools_btn li button {
+        width: 80px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .how_to_participate_right_content{
+        margin-top: 50px;
+    }
+    .roadmap_shape{
+        display: none;
+    }
+    
+    .tokenomics_contents_left_custom{
+        margin-left: 0px;
+    }
+    
+    .tvl_right_card{
+        margin: auto;
+        margin-top: 30px;
+    }
+    .tvl_headings{
+        width: 170px;
+        margin: auto;
+    }
+    .tvl_sect{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .tvl_headings span {
+        position: absolute;
+        top: -45px;
+        left: 0px;
+    }
+    
+    .tier_v2_col_body {
+        padding: 0px 19px;
+    }
+    .tier_v2_col{
+        margin-bottom: 100px;
+    }
+    
+    .tier_v2_col_headings, .tier_v2_col_body {
+        padding: 0px;
+    }
+    .tier_v2_col_body1:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 320px;
+        left: 0px;
+        height: 4px;
+        width: 100%;
+        transform: rotate(0deg);
+    }
+    .tier_v2_col_body2:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 395px;
+        left: 0px;
+        height: 4px;
+        width: 100%;
+        transform: rotate(0deg);
+    }
+    
+    .tier_v2_col_body3:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 455px;
+        left: 0px;
+        height: 4px;
+        width: 100%;
+        transform: rotate(0deg);
+    }
+    
+    .tier_v2_col_body4:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 515px;
+        left: 0px;
+        height: 4px;
+        width: 100%;
+        transform: rotate(0deg);
+    }
+    .connect_wallet_btn span{
+        min-width: 24px;
+        max-width: 24px;
+        margin-right: 10px;
+    }
+    .connect_wallet_btn{
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+    .connect_wallet_btn:before {
+        top: 20px;
+        right: 16px;
+    }  
+    
+    .choose_network_sect ul{
+        flex-wrap: wrap;
+    }
+    .choose_network_sect ul li{
+        width: 47%;
+        margin-bottom: 16px;
+    }
+    
+    .latest_articles_card{
+        min-height: auto;
+    }
+    
+    .faq_screen_tab_sect{
+        padding-right: 0px;
+    }
+    .faq_screen_tab_content{
+        padding-left: 0px;
+    }
+    .faq_content_sect.accordion{
+        font-size: 18px;
+        padding-right: 25px;
+    }
+    .faq_content_sect.accordion-panel p{
+        font-size: 14px;
+    }
+    
+    
+    
+    .project_clasic_slider_content{
+        flex-direction: column;
+    }
+    
+    .project_clasic_slider_right_sect{
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .project_clasic_slider_left_sect{
+        max-width: 100%;
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+    .access_allocaiont_text{
+        align-items: flex-start;
+    }
+    .project_clasic_slider_right_timer{
+        margin-bottom: 20px;
+    }
+    .project_clasic_slider_progress_sect{
+        margin-top: 40px;
+    }
+    .project_clasic_slider_sect .project_clasic_prev {
+        left: -10%;
+    }
+    .project_clasic_slider_sect .project_clasic_next {
+        right: -10%;
+    }
+    
+    .project_clasic_slider_sect .project_clasic_prev img,
+    .project_clasic_slider_sect .project_clasic_next img{
+        height: 30px;
+    }
+    .live_project_headings{
+        max-width: 220px;
+    }
+    .live_project_headings .video__icon{
+        top: 0px;
+    }
+    .live_project_headings h2 {
+        font-size: 22px;
+    }
+    
+    
+    .project_clasic_2_container_right_sect{
+        margin-top: 30px;
+    } 
+    .project_clasic_2_container_right_headings h2{
+        margin-bottom: 10px;
+    }
+    .project_clasic_2_container_right_headings h2 a {
+        font-size: 27px;
+    }
+    
+    
+    .pool_and_token_info_sect{
+        margin-top: 40px;
+    }
+    .first_survivor_city_right_section{
+        padding: 0px;
+        margin-bottom: 40px;
+    }
+    .pool_and_token_info_card{
+        margin-top: 30px;
+    }
+    .staking_bradcome_right ul li h5{
+        font-size: 22px;
+    }
+    
+}
+
+@media only screen and (min-width: 575px) and (max-width: 619px){
+    .kyc_form .upload_doc_sect ul li h4 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .sc-banner .banner-content .banner-title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .sc-banner .banner-content .description {
+        font-size: 16px;
+        margin: 0 0 30px;
+    }
+    .view-more {
+        padding: 10px 20px 6px;
+        display: inline-block;
+    }
+    .sec-inner.d-flex,
+    .heading-area.d-flex{
+        display: block !important;
+        margin-bottom: 40px;
+    }
+    .gamfi-tokenomics-section .pr-63,
+    .gamfi-tokenomics-section h5{
+        margin-bottom: 0;
+    }
+    .gamfi-footer-section .footer-listing .footer-icon-list i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 4px;
+        font-size: 15px;
+    }
+    .gamfi-footer-section .footer-cta-area .footer-link input[type="email"] {
+        padding: 12px 15px;
+    }
+    .project-summary-menu {
+        margin-bottom: 55px;
+    }
+    .gamfi-calendar-list .calender-date {
+        width: 48%;
+    }
+    .gamfi-breadcrumbs-section .breadcrumbs-form {
+        display: block;
+    }
+    .breadcrumbs-form .gamfi-navigation{
+        margin: 30px 0 0;
+    }
+    .breadcrumbs-form .gamfi-navigation ul li{
+        margin-right: 15px;
+    }
+    .breadcrumbs-form .gamfi-navigation ul{
+        justify-content: flex-start;
+    }
+    .gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+        width: 100%;
+    }
+    .gamfi-breadcrumbs-section .breadcrumbs-form form{
+        margin: 0;
+    }
+    
+    .kyc_qrcode_img {
+        height: 280px;
+        width: 280px;
+    }
+    .kyc_form h3 {
+        font-size: 19px;
+    }
+    .kyc_form p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .kyc_country_drop_box h4 {
+        font-size: 14px;
+    }
+    .kyc_form{
+        padding: 0px;
+    }
+    
+    .kyc_form .upload_doc_sect ul li h4{
+        width: 60%;
+        margin: auto;
+        line-height: 158%;
+        margin-top: 16px;
+    }
+    
+    .market_cap_sect .red-border-gradient {
+        top: -148px;
+        left: 148px;
+        width: 5px;
+        height: 300px;
+    }
+    
+    .market_cap_sect .green-border-gradient {
+        bottom: -148px;
+        right: 148px;
+        width: 5px;
+        height: 300px;
+    }
+    .project_v2_tab_btns ul{
+        justify-content: flex-start;
+    }
+    .roadmap_tab_btns ul{
+        justify-content: flex-start;
+    }
+    .tier_system_items .bg-shape{
+        left: 14%;
+    }
+    
+    .gamfi_v3_project_pools_btn{
+        justify-content: flex-start;
+    }
+    
+    /*New CSS*/
+    .blog-detail-conent .blog-area .blog-description .blockquote .des-active {
+        font-size: 18px;
+    }
+    .blog-detail-conent .previous-item .previous-text h5{
+        font-size: 15px;
+    }
+    .blog-detail-conent .blog-area .blog-description .des {
+        font-size: 17px;
+    }
+    .kyc_qrcode_img {
+        height: 280px;
+        width: 280px;
+    }
+    .kyc_form h3 {
+        font-size: 19px;
+    }
+    .kyc_form p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .kyc_country_drop_box h4 {
+        font-size: 14px;
+    }
+    .kyc_form{
+        padding: 0px;
+    }
+    
+    .kyc_form .upload_doc_sect ul li h4{
+        width: 60%;
+        margin: auto;
+        line-height: 158%;
+        margin-top: 16px;
+    }
+    
+    .tokenomics-counter{
+        text-align: center;
+    }
+    
+    .project_clasic_slider_sect .project_clasic_prev {
+        left: 0%;
+    }
+    .project_clasic_slider_sect .project_clasic_next {
+        right: 0%;
+    }
+    
+    .project_clasic_slider_text_sect h3 a{
+        font-size: 25px;
+    }
+    .live_project_headings{
+        max-width: 220px;
+    }
+    .live_project_headings h2{
+        font-size: 22px;
+    }
+    .live_project_headings .video__icon{
+        top: 0px;
+    }
+    
+}
+
+@media (max-width: 540px) {
+    .gamfisubscriveSect input{
+        margin-bottom: 20px;
+    }
+    .gamfisubscriveSect{
+        flex-direction: column;
+    }
+    
+    .first_survivor_city_left_timer{
+        width: 245px;
+        height: 40px;
+    }
+    .first_survivor_city_left_timer .price-counter ul{
+        width: 165px;
+        padding-top: 8px;
+    }
+    .first_survivor_city_left_timer .price-counter ul li{
+        font-size: 17px;
+    }
+    .first_survivor_city_left_timer .price-counter ul li span{
+        font-size: 10px;
+    }
+    .first_survivor_city_left_section .chain_img{
+        width: 40px;
+    }
+    .first_survivor_city_right_project_name{
+        margin-left: 20px;
+    }
+    .first_survivor_city_right_project_name h2{
+        margin-bottom: 0px;
+    }
+    .first_survivor_city_right_project_name h2 a{
+        font-size: 23px;
+    }
+    .first_survivor_city_right_project_name span{
+        font-size: 13px;
+    }
+    .first_survivor_city_right_project_img{
+        height: 70px;
+        width: 70px;
+    }
+    
+    .first_survivor_city_right_section p{
+        font-size: 13px;
+        line-height: 26px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .first_survivor_city_right_button button{
+        font-size: 13px;
+        height: 40px;
+    }
+    .first_survivor_city_left_section .total_rised_progress_sect{
+        margin-top: 100px;
+    }
+    
+    .pool_and_token_info_list ul li p.pool_and_token_info_list_left,
+    .pool_and_token_info_list ul li p.pool_and_token_info_list_right{
+        font-size: 13px;
+    }
+    .pool_and_token_info_list ul li p.pool_and_token_info_list_right span{
+        margin-right: 15px;
+    }
+    
+    .project_details_2_schedule_table_headings ul li, 
+    .project_details_2_schedule_table_body ul li, 
+    .project_details_2_schedule_table_headings ul li, 
+    .project_details_2_allocations_table_body ul li{
+        font-size: 12px;
+    }
+    
+    .project_details_2_schedule_table_headings, 
+    .project_details_2_schedule_table_body ul , 
+    .project_details_2_schedule_table_headings, 
+    .project_details_2_allocations_table_body ul {
+        height: 40px;
+    }
+    .project_details_2_schedule_table_headings, 
+    .project_details_2_schedule_table_body, 
+    .project_details_2_schedule_table_headings, 
+    .project_details_2_allocations_table_body{
+        min-width: 800px;
+    }
+    .project_details_2_allocations_table_body ul li.column_5 button{
+        height: 33px;
+        width: 85px;
+        font-size: 12px;
+    }
+    .project_details_2_allocations_table_body ul li.column_5 button{
+        height: 32px;
+    }
+    .governce_vote_table ul li h2{
+        font-size: 20px;
+    }
+    .governce_vote_table ul li h3{
+        font-size: 13px;
+    }
+    .governce_vote_table ul li h4{
+        font-size: 13px;
+    }
+    .governce_vote_table ul li h5{
+        max-width: 60px;
+        font-size: 13px;
+    }
+    .governce_vote_table ul li h6{
+        font-size: 13px;
+    }
+    .governanc_details_heading h2{
+        font-size: 28px;
+    }
+    .cast_your_vote_radio{
+        flex-direction: column;
+    }
+    .cast_your_vote_radio li{
+        width: 100%;
+        border-left: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .governanc_details_subtitle{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .governanc_details_heading h4{
+        margin-top: 15px;
+    }
+    
+    .table_col6 button{
+        height: 30px;
+        font-size: 13px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 500px){
+    .kyc_form .upload_doc_sect ul li h4 {
+        width: 100px;
+        margin: auto;
+        line-height: 158%;
+        margin-top: 16px;
+    }
+    .gamfi_v2_hero_left h2{
+        font-size: 33px;
+    }
+    .gamfi_v2_hero_left p{
+        font-size: 15px;
+    }
+    
+    .buy-token-logos ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .buy-token-logos ul li{
+        width: 47%;
+        margin-right: 0px;
+        margin-bottom: 26px;
+    }
+    .Market_CapAllContent{
+        justify-content: space-around;
+    }
+    .market_cap_content{
+        width: 50%;
+        margin: 15px 0px;
+    }
+    .tier_system_items .bg-shape{
+        left: 12%;
+    }
+    
+    .gamfi_faq_sect .sec-heading .sub-title {
+        font-size: 12px;
+    }
+    .governanc_content_left_hash_card ul{
+        flex-direction: column;
+        margin-top: 7px;
+    }
+    .governanc_content_left_hash_card ul li{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body{
+        font-size: 15px;
+    }
+    .gamfi-header-section .logo {
+        margin-right: 30px;
+    }
+    .gamfi-header-section .white-btn{
+        display: none;
+    }
+    .footer-logo img,
+    .sidebar-logo img,
+    .gamfi-header-section .logo img{
+        max-width: 120px;
+    }
+    .gamfi-header-section .gamfi-btn-area ul .nav-expander {
+        margin-top: 0;
+    }
+    .sc-banner{
+        padding-top: 120px;
+    }
+    .gamfi-header-section .right_menu_togle {
+        padding: 66px 30px 50px 30px;
+    }
+    .gamfi-header-section .right_menu_togle .close-btn {
+        right: 0;
+    }
+    .gamfi-header-section .right_menu_togle {
+        max-width: 300px;
+    }
+    .sc-banner .banner-content .banner-title {
+        font-size: 24px;
+    }
+    .gamfi-project-section .gamfi-btn-area .readon,
+    .banner-btn {
+        padding: 9px 24px 8px;
+    }
+    .gamfi-about-secion .game-price-item {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .banner-slider-inner .timer ul li {
+        font-size: 26px;
+    }
+    .apply-heading h2,
+    .gamfi-footer-section .footer-cta-area .title, 
+    .sec-heading .title {
+        font-size: 22px;
+    }
+    .participat-information .project-value-inner{
+        display: block !important;
+    }
+    .gamfi-footer-section .footer-cta-form form,
+    .project-details-conent .banner-bottom-content,
+    .gamfi-previous-section .previous-item .previous-raise,
+    .gamfi-previous-section .previous-item .previous-gaming{
+        display: block;
+    }
+    .gamfi-previous-section .previous-item .previous-gaming .previous-image{
+        margin-bottom: 15px;
+    }
+    .gamfi-previous-section .previous-item .previous-raise .progress-inner{
+        margin-top: 10px;
+    }
+    .gamfi-explore-content .project-item h4{
+        font-size: 18px;
+    }
+    .gamfi-about-secion .game-price-item .price-details h3 {
+        font-size: 20px;
+    }
+    .gamfi-footer-section .footer-mainmenu ul li{
+        padding: 0 0 10px;
+    }
+    .gamfi-footer-section .footer-mainmenu ul li,
+    .gamfi-tokenomics-section .tokenomics-item,
+    .gamfi-project-section .project-item .project-info{
+        display: block !important;
+    }
+    .gamfi-project-section .project-item .project-info img{
+        margin: 0 0 10px;
+    }
+    .gamfi-tokenomics-section .tokenomics-menu{
+        padding: 0 0 20px;
+    }
+    .tokenomics-counter .counter-number {
+        font-size: 28px;
+    }
+    .sec-heading .heading-right-image,
+    .sec-heading .heading-left-image{
+        max-width: 60px;
+    }
+    .sec-heading .heading-right-image,
+    .sec-heading .heading-left-image,
+    .sec-heading .sub-title{
+        margin: 0;
+    }
+    .gamfi-footer-section .footer-listing .footer-icon-list i {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        margin: 0 2px;
+        font-size: 13px;
+    }
+    .team-item {
+        margin-bottom: 20px;
+    }
+    .gamfi-form-content .address-form h5,
+    .gamfi-form-content .address-form .input-button label{
+        font-size: 13px;
+    }
+    .gamfi-explore-content .project-menu-area ul li,
+    .gamfi-calendar-list .calender-date{
+        width: 100%;
+    }
+    .gamfi-explore-content .project-menu-area ul{
+        display: block;
+    }
+    .gamfi-explore-content .project-item{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .gamfi-explore-content .project-item .heading-title h4:before {
+        left: -15px;
+    }
+    .gamfi-farming-content .expeand-centent {
+        padding: 20px 15px;
+    }
+    .gamfi-navigation ul li a:not(.black-shape) {
+        padding: 3px 12px;
+    }
+    .gamfi-navigation ul li:first-child a {
+        padding: 3px 12px 3px;
+    }
+    .gamfi-breadcrumbs-section .breadcrumbs-link,
+    .sec-heading .sub-title{
+        font-size: 15px;
+    }
+    .breadcrumbs-form .gamfi-navigation ul li:first-child a,
+    .gamfi-breadcrumbs-section .gamfi-navigation ul li a{
+        padding: 6px 15px;
+    }
+    .project-details-conent table{
+        display: block;
+        overflow-x: auto;
+    }
+    .project-details-conent table td {
+        font-size: 14px;
+    }
+    .participat-information .project-item h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .participat-information .project-item h4 {
+        font-size: 18px;
+    }
+    .staking-information .project-item h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .staking-information .project-item h4 {
+        font-size: 18px;
+    }
+
+    .staking-information .project-item h5 {
+        font-size: 16px;
+    }
+   
+    .project-details-conent .project-item .date-listing li label {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .project-details-conent .project-item .date-listing li{
+        display: block;
+    }
+    .project-details-conent .project-item .date-listing li + li{
+        margin-left: 0;
+    }
+    .project-details-conent .project-media li span {
+        float: none;
+        display: block;
+    }
+    .participat-information .project-value-inner .project-value{
+        margin-bottom: 10px;
+    }
+    .project-details-conent .project-item .project-form-list .balance-form-area .white-shape-small,
+    .project-details-conent .project-item .big-text {
+        position: static;
+    }
+    .gamfi-about-secion .game-price-item .text-content{
+        margin: 10px 0;
+    }
+    .gamfi-about-secion .game-price-item .social-icon-list,
+    .gamfi-about-secion .game-price-item .text-content{
+        text-align: left;
+    }
+    .gamfi-footer-section .footer-cta-form .footer-link input[type="email"]{
+        margin-bottom: 20px;
+    }
+    .gamfi-footer-section .footer-cta-form .footer-link input[type="email"],
+    .gamfi-about-secion .game-price-item .btn-area, 
+    .gamfi-about-secion .game-price-item .text-content, 
+    .gamfi-about-secion .game-price-item .social-area,
+    .project-details-conent .project-item .project-form-list .balance-form-area input,
+    .project-details-conent .project-item .project-form-list .balance-form-area input[type="submit"],
+    .project-details-conent .project-item .project-form-list .balance-form-area .approve input[type="submit"]{
+        width: 100%;
+    }
+    
+    .project-details-conent .project-item ul.date-listing {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .project-details-conent .project-item ul.date-listing li {
+        width: 24%;
+    }
+    .project-details-conent .project-item ul.date-listing li button {
+        font-size: 10px;
+        width: 100%;
+        height: 100%;
+        padding: 12px 0px;
+    }
+    .gamfi_header_progress_bar .progress{
+        width: 290px;
+    }
+    .team_members_info h2{
+        font-size: 30px;
+    }
+    .team_members_info h3{
+        font-size: 20px;
+    }
+    .team_members_info p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .team_members_contact ul li strong{
+        font-size: 14px;
+        width: 120px;
+    }
+    .team_members_contact ul li span{
+        font-size: 14px;
+    }
+    .kyc_form .upload_btn_bg{
+        height: 130px;
+    }
+    .kyc_form .upload_doc_sect .upload-btn-wrapper span{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .kyc_personal_info_form form .InputNameSect, .kyc_personal_info_form form .InputAddressSect, .kyc_personal_info_form form .InputCitySect{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .kyc_personal_info_form form .InputNameSect .FirstNameFild, .kyc_personal_info_form form .InputNameSect .LastNameFild, .kyc_personal_info_form form .InputAddressSect .Address1Fild, .kyc_personal_info_form form .InputAddressSect .Address2Fild, .kyc_personal_info_form form .InputCitySect .CityFild, .kyc_personal_info_form form .InputCitySect .PostCodeFild {
+        width: 100%;
+    }
+    .SignUp_SignIn_Form {
+        padding: 63px 20px 56px 20px;
+    }
+    .SignUp_SignIn_Form h4, .SignUp_SignIn_Form h4 a{
+        font-size: 14px;
+    }
+    .roadmap_content_box1{
+        min-height: 158px;
+        background: url("../images/kycimg/roadMapcpntentBg1.svg");
+        background-position: right;
+        background-size: cover;
+    }
+    .roadmap_content_box2{
+        min-height: 185px;
+        background: url("../images/kycimg/roadMapcpntentBg5.svg");
+        background-position: left;
+        background-size: cover;
+    }
+    .roadmap_content_box3{
+        min-height: 158px;
+        background: url("../images/kycimg/roadMapcpntentBg2.svg");
+        background-position: right;
+        background-size: cover;
+    }
+    .roadmap_content_box4{
+        min-height: 216px;
+        background: url("../images/kycimg/roadMapcpntentBg6.svg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .roadmap_content_box5{
+        min-height: 260px;
+        background: url("../images/kycimg/roadMapcpntentBg3.svg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .roadmap_content_box6 {
+        background: url("../images/kycimg/roadMapcpntentBg7.svg");
+        min-height: 230px;
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    .roadmap_content_box7{
+        min-height: 185px;
+        background: url("../images/kycimg/roadMapcpntentBg4.svg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    
+    
+    .connect_wallet_btn_for_mobile{
+        display: block;
+    }
+    .multi_chain_support_right_list ul{
+        margin-right: 40px;
+    }
+    
+    .project_v2_tab_btns ul li{
+        margin-left: 10px;
+    }
+    .project_v2_tab_btns ul li button{
+        width: 92px;
+    }
+    .project_v2_tab_btns ul li button .btn-text {
+        font-size: 12px;
+    }
+    
+    .roadmap_tab_btns ul li{
+        margin-left: 10px;
+    }
+    .tier_system_items .bg-shape{
+        left: 10%;
+    }
+    
+    .sc_banner_v3_left h2{
+        font-size: 35px;
+    }
+    
+    .connect_wallet_card_headings h2{
+        font-size: 31px;
+        margin-bottom: 16px;
+    }
+    .connect_wallet_card_headings p, .connect_wallet_content p{
+        font-size: 14px;
+    }
+    
+    
+    /*New CSS*/
+    .latest-details-content .latest-item p{
+        font-size: 13px;
+    }
+    .post-item .recent-content, .blog-detail-conent .tag-menu ul li {
+        display: block;
+    }
+    .post-item .post-shade h4 {
+        font-size: 20px;
+    }
+    .latest-details-content .tag-menu ul li {
+        display: block;
+    }
+    .news-letter-item.hover-shape-inner .hover_shape1 {
+        left: 10%;
+    }
+    .news-letter-item.hover-shape-inner .hover_shape2 {
+        left: 56.5%;
+    }
+    .news-letter-item.hover-shape-inner .hover_shape3 {
+        left: 32%;
+    }
+    .blog-detail-conent .blog-area .tokenomics-item .project-service {
+        padding-left: 40px;
+    }
+    .gamfi-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
+        font-size: 25px;
+    }
+    .blog-detail-conent .blog-area .about-blog .about-menu .about-list .about-listing li,
+    .blog-detail-conent .blog-area .about-blog .about-menu {
+        display: block;
+    }
+    .blog-detail-conent .blog-area .about-blog .about-menu .about-list .about-listing li {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .blog-detail-conent .blog-area .about-blog .blog-contact {
+        display: block;
+    }
+    .blog-detail-conent .blog-area .about-blog .blog-contact .previous-item {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .latest-details-content .latest-item p {
+        font-size: 14px;
+    }
+    .gamfi_header_progress_bar .progress{
+        width: 290px;
+    }
+    .team_members_info h2{
+        font-size: 30px;
+    }
+    .team_members_info h3{
+        font-size: 20px;
+    }
+    .team_members_info p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .team_members_contact ul li strong{
+        font-size: 14px;
+        width: 120px;
+    }
+    .team_members_contact ul li span{
+        font-size: 14px;
+    }
+    .kyc_form .upload_btn_bg{
+        height: 130px;
+    }
+    .kyc_form .upload_doc_sect .upload-btn-wrapper span{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .kyc_personal_info_form form .InputNameSect,
+     .kyc_personal_info_form form .InputAddressSect,
+     .kyc_personal_info_form form .InputCitySect{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .kyc_personal_info_form form .InputNameSect .FirstNameFild, .kyc_personal_info_form form .InputNameSect .LastNameFild, .kyc_personal_info_form form .InputAddressSect .Address1Fild, .kyc_personal_info_form form .InputAddressSect .Address2Fild, .kyc_personal_info_form form .InputCitySect .CityFild, .kyc_personal_info_form form .InputCitySect .PostCodeFild {
+        width: 100%;
+    }
+    .SignUp_SignIn_Form {
+        padding: 63px 20px 56px 20px;
+    }
+    .SignUp_SignIn_Form h4, .SignUp_SignIn_Form h4 a{
+        font-size: 14px;
+    }
+    .roadmap_content_box1{
+        min-height: 158px;
+        background: url("../images/kycimg/roadMapcpntentBg1.svg");
+        background-position: right;
+        background-size: cover;
+    }
+    .roadmap_content_box2{
+        min-height: 185px;
+        background: url("../images/kycimg/roadMapcpntentBg5.svg");
+        background-position: left;
+        background-size: cover;
+    }
+    .roadmap_content_box3{
+        min-height: 158px;
+        background: url("../images/kycimg/roadMapcpntentBg2.svg");
+        background-position: right;
+        background-size: cover;
+    }
+    .roadmap_content_box4{
+        min-height: 216px;
+        background: url("../images/kycimg/roadMapcpntentBg6.svg");
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .roadmap_content_box5{
+        min-height: 260px;
+        background: url("../images/kycimg/roadMapcpntentBg3.svg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .roadmap_content_box6 {
+        background: url("../images/kycimg/roadMapcpntentBg7.svg");
+        min-height: 230px;
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    .roadmap_content_box7{
+        min-height: 185px;
+        background: url("../images/kycimg/roadMapcpntentBg4.svg");
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    
+    
+    .project_clasic_slider_bg{
+        padding: 30px;
+    }
+    
+    
+    .project_clasic_2_container_right_headings h2{
+        margin-bottom: 5px;
+    } 
+    .project_clasic_2_container_right_headings h2 a{
+        font-size: 22px;
+    }
+    .project_clasic_2_container_right_headings p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .project_clasic_2_container_right_headings span{
+        height: 30px;
+        width: 30px;
+    }
+    .total_rised_progress_headings h3, .total_rised_progress_headings p{
+        font-size: 12px;
+    }
+    .total_rised_progress_sale_airdrop_sect p{
+        font-size: 12px;
+    }
+    .access_allocation_participants_sect ul li span, .access_allocation_participants_sect ul li p{
+        font-size: 12px;
+    }
+    .project_clasic_2_container_social_sect ul{
+        max-width: 200px;
+    }
+    .project_clasic_2_container_social_sect ul li a i{
+        font-size: 16px;
+    }
+    .project_clasic_2_container_left{
+        min-height: 335px;
+    }
+    .access_allocation_participants_sect{
+        margin-top: 10px;
+    }
+    .project_clasic_2_container_social_sect{
+        margin-top: 35px;
+    }
+    .project_clasic_2_timer{
+        width: 210px;
+    }
+    .project_clasic_2_left_content_img{
+        height: 50px;
+        width: 50px;
+    }
+    .project_clasic_2_timer .price-counter .timer ul{
+        max-width: 140px;
+    }
+    .project_clasic_2_timer .price-counter .timer ul li{
+        font-size: 13px;
+    }
+    .project_clasic_2_timer .price-counter .timer ul li span{
+        font-size: 10px;
+    }
+    
+    
+    
+}
+
+@media (max-width: 425px){
+    .tier_system_items .bg-shape{
+        left: 15px;
+    }
+    .connect_wallet_card{
+        padding: 50px 20px;
+    }
+    
+    .list_investors_list ul li{
+        width: 50%;
+    }
+    .list_investors_list ul li img{
+        width: 70%;
+    }
+    
+    .list_investors_list ul li.first {
+        text-align: left;
+    }
+    
+    .list_investors_list ul li.second {
+        text-align: right;
+    }
+    
+    .list_investors_list ul li.third {
+        text-align: left;
+    }
+    
+    .list_investors_list ul li.last {
+        text-align: right;
+    }
+}
+
+@media (max-width: 375px) {
+    .modal-content {
+        background: #1E1F35;
+        padding: 30px 10px 5px;
+    }
+    
+    .gamfi_v2_hero_left h2{
+        font-size: 30px;
+    }
+    .gamfi_v2_hero_left p{
+        font-size: 14px;
+    }
+    .tokenomics_list_sect ul{
+        margin-right: 40px;
+    }
+    .multi_chain_support_right_list ul {
+        margin-right: 25px;
+    }
+    .multi_chain_support_right_list ul li {
+        font-size: 12px;
+    }
+    
+    .choose_network_sect ul li button span {
+        margin-right: 11px;
+        min-width: 20px;
+        max-width: 20px;
+    }
+    
+    .v1_tokenomics_content_list_progress1{
+        width: 80px;
+    }
+    .v1_tokenomics_content_list_progress2{
+        width: 100px;
+    }
+    .v1_tokenomics_content_list_progress3{
+        width: 115px;
+    }
+    .v1_tokenomics_content_list_progress4{
+        width: 130px;
+    }
+    .v1_tokenomics_content_list_progress5{
+        width: 150px;
+    }
+    .v1_tokenomics_content_list_progress6{
+        width: 170px;
+    }
+    .v1_tokenomics_content_list_progress7{
+        width: 220px;
+    }
+    
+    .project_clasic_slider_img_and_title_sect img{
+        max-width: 60px;
+    }
+    .project_clasic_slider_text_sect h3{
+        margin-bottom: 0px;
+    }
+    .project_clasic_slider_text_sect h3 a{
+        font-size: 19px;
+    }
+    .project_clasic_slider_text_sect p{
+        font-size: 12px;
+    }
+    .project_clasic_slider_rise_conten h2, .access_allocaiont_text h2{
+        font-size: 13px;
+    }
+    .project_clasic_slider_rise_conten span, .access_allocaiont_text span{
+        font-size: 11px;
+    }
+    .project_clasic_slider_right_timer .price-counter .timer ul li{
+        font-size: 25px;
+    }
+    
+    .project_clasic_2_container_left{
+        min-height: 250px;
+    }
+    .project_clasic_2_timer{
+        width: 160px;
+        background-position: center right;
+        top: 20px;
+    }
+    .project_clasic_2_timer .price-counter .timer ul {
+        margin-left: 10px;
+        margin-top: 10px;
+        max-width: 120px;
+    }
+    
+    .project_clasic_2_left_content_img{
+        height: 40px;
+        width: 40px;
+    }
+    .access_allocation_participants_sect ul li span, .access_allocation_participants_sect ul li p{
+        font-size: 10px;
+        line-height: 158%;
+    }
+    .total_rised_progress_headings h3, .total_rised_progress_headings p{
+        font-size: 10px;
+        line-height: 158%;
+    }
+    
+    .total_rised_progress_bg {
+        height: 10px;
+    }
+    
+    .project_clasic_2_container_right_headings h2 a {
+        font-size: 18px;
+    }
+    
+    .project_clasic_2_container_right_headings p {
+        font-size: 12px;
+    }
+    
+    .total_rised_progress_sale_airdrop_sect p{
+        font-size: 10px;
+    }
+    .project_clasic_2_container_right_sect{
+        margin-top: 15px;
+    }
+    
+    .first_survivor_city_right_project_name h2 a{
+        font-size: 22px;
+    }
+    
+    .first_survivor_city_left_timer{
+        width: 220px;
+        height: 40px;
+    }
+    .first_survivor_city_left_timer .price-counter ul{
+        width: 140px;
+        padding-top: 8px;
+    }
+    .first_survivor_city_left_timer .price-counter ul li{
+        font-size: 16px;
+    }
+    .first_survivor_city_left_timer .price-counter ul li span{
+        font-size: 9px;
+    }
+    .first_survivor_city_left_section .chain_img{
+        width: 30px;
+    }
+    
+    .governce_vote_table ul li h4 span{
+        max-width: 16px;
+        min-width: 16px;
+    }
+    .governce_vote_table ul li h4{
+        font-size: 11px;
+    }
+    .governce_vote_table ul li h5{
+        max-width: 45px;
+        font-size: 12px;
+    }
+    .governce_vote_table ul li h6{
+        font-size: 12px;
+    }
+    .governanc_details_text p{
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .governanc_details_heading p{
+        font-size: 13px;
+    }
+    .governanc_content_right_card ul li p, 
+    .governanc_content_right_card ul li span{
+        font-size: 13px;
+    }
+    .governanc_content_right_card_btns button{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px){
+    .forgetPassBtnSect{
+        flex-direction: column;
+        align-items: flex-start;
+    }   
+    .forgetPassBtnSect .ForgetPass a {
+        margin-left: 25px;
+        margin-top: 16px;
+    }
+    .SignUp_SignIn_Form h4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .gamfi_v2_hero_left h2{
+        font-size: 27px;
+    }
+    .gamfi_V2_hero_Btns .view_projects_btn, .gamfi_V2_hero_Btns .Apply_Project_Btn{
+        width: 130px;
+    }
+    .gamfi_V2_hero_Btns .view_projects_btn .btn-text, .gamfi_V2_hero_Btns .Apply_Project_Btn .btn-text{
+        font-size: 12px;
+    }
+    .tokenomics_contents_left h3{
+        font-size: 20px;
+    }
+    .connect_wallet_card_headings h2{
+        font-size: 28px;
+    }
+    .article_details2 h4{
+        font-size: 26px;
+        line-height: 45px;
+    }
+    .faq_screen_tab{
+        padding: 34px 30px;
+    }
+    
+    .project_summary_tabs_sect button a{
+        font-size: 14px;
+    }
+    
+    .lq_flip_card_headings{
+        padding: 0px 25px;
+    }
+    .lq_flip_card_body{
+        padding: 42px 25px;
+    }
+    .lq_flip_card_front_body .staking_flip_card_front_list{
+        margin-top: 0px;
+    }
+    .staking_flip_card_front_list ul li strong, .staking_flip_card_front_list ul li span{
+        font-size: 12px;
+    }
+    .staking_flip_card_front_reward h6{
+        font-size: 10px;
+    }
+    .staking_flip_card_front_reward h5{
+        font-size: 12px;
+    }
+    .staking_flip_card_back_form form span{
+        font-size: 12px;
+    }
+    .staking_flip_card_back_form_input button{
+        font-size: 12px;
+    }
+    .staking_flip_card_back_form_input input{
+        font-size: 12px;
+    }
+    .staking_flip_card_front_buttons button, .staking_flip_card_back_approve_btn button{
+        font-size: 12px;
+    }
+    
+    .staking_flip_card_front{
+        padding: 40px 20px;
+    }
+    .staking_flip_card_front_timebg{
+        width: 160px;
+        left: -20px;
+        padding-left: 20px;
+    }
+    .staking_flip_card_front_headings h2, .staking_flip_card_back_headings h2{
+        font-size: 25px;
+    }
+    .staking_flip_card_front_timebg span, .staking_apy h3{
+        font-size: 12px;
+    }
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient(115deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+    background-size: 30px;
+}

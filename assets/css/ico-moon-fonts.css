@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoonc580.eot?1o95z7");
+  src: url("../fonts/icomoonc580.eot?1o95z7#iefix") format("embedded-opentype"),
+    url("../fonts/icomoonc580.ttf?1o95z7") format("truetype"),
+    url("../fonts/icomoonc580.woff?1o95z7") format("woff"),
+    url("../fonts/icomoonc580.svg?1o95z7#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comment-icon:before {
+  content: "\e91e";
+}
+.icon-dabble-arrow:before {
+  content: "\e91f";
+}
+.icon-sms-icon:before {
+  content: "\e920";
+}
+.icon-Vector:before {
+  content: "\e91c";
+}
+.icon-coinbase:before {
+  content: "\e916";
+}
+.icon-trustwallet:before {
+  content: "\e917";
+}
+.icon-wallet:before {
+  content: "\e911";
+}
+.icon-walletconnect:before {
+  content: "\e918";
+}
+.icon-coinmarketcap:before {
+  content: "\e914";
+}
+.icon-gate:before {
+  content: "\e919";
+}
+.icon-pancakeswap:before {
+  content: "\e915";
+}
+.icon-uniswap:before {
+  content: "\e91a";
+}
+.icon-world:before {
+  content: "\e91d";
+}
+.icon-arrow_down:before {
+  content: "\e901";
+}
+.icon-arrow_right:before {
+  content: "\e902";
+}
+.icon-arrow_up:before {
+  content: "\e903";
+}
+.icon-calendar:before {
+  content: "\e904";
+}
+.icon-discord:before {
+  content: "\e905";
+}
+.icon-facebook:before {
+  content: "\e906";
+}
+.icon-info-circle:before {
+  content: "\e907";
+}
+.icon-instagram:before {
+  content: "\e908";
+}
+.icon-link:before {
+  content: "\e909";
+}
+.icon-linkedin:before {
+  content: "\e90a";
+}
+.icon-list:before {
+  content: "\e90b";
+}
+.icon-medium:before {
+  content: "\e90c";
+}
+.icon-search:before {
+  content: "\e90d";
+}
+.icon-share:before {
+  content: "\e90e";
+}
+.icon-telegram:before {
+  content: "\e90f";
+}
+.icon-twitter:before {
+  content: "\e910";
+}
+.icon-x:before {
+  content: "\e912";
+}
+.icon-chevron-left:before {
+  content: "\e900";
+}
+.icon-cheveron-left:before {
+  content: "\e913";
+}
+.icon-play:before {
+  content: "\e91b";
+}
+
