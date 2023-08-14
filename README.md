@@ -1,7 +1,7 @@
 # stakingwithmultiplepools
-Staking platform with multiple pools
+FoxxChain platform with multiple pools
 
 
-Watch video how to 👉 https://youtu.be/Z_l9_DHWUW8
+Watch video how to 👉 https://youtu.be/UL6cLdFEO1M
 
-Join my telegram 👉 https://t.me/automatecrypto
+Join my telegram 👉 https://t.me/+SpF8MgzRfcUwYTMx
